@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=LeagueAppTemplate
+PRODUCT_BUNDLE_IDENTIFIER=com.kmp.dardev.league.app.template.LeagueAppTemplate$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
