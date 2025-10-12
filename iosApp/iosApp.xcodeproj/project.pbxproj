@@ -107,7 +107,6 @@
 				F19E6A5E1A4DD7A5B8C5F648 /* Frameworks */,
 				D3BCAF2A40A38A3B4F606BED /* Resources */,
 				B5EF2C1EB8FF29A6BEAE1BB5 /* [CP] Embed Pods Frameworks */,
-				1C07A4F4FBA59D9D98EC13EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,23 +165,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C07A4F4FBA59D9D98EC13EA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		22FAC1CFD49BFA7E2B3BE035 /* Compile Kotlin Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;

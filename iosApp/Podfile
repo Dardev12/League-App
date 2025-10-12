@@ -11,7 +11,6 @@ target 'iosApp' do
     pod 'Firebase/Storage'
     pod 'Firebase/Analytics'
     pod 'ToastSwiftUI'
-    pod 'Google-Mobile-Ads-SDK'
     pod 'SwiftLint'
     pod 'Shuffle-iOS'
     pod 'Instructions', '~> 2.3.0'

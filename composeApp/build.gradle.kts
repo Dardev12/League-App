@@ -1,11 +1,10 @@
 import org.gradle.kotlin.dsl.implementation
-import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidApplication)
-    //alias(libs.plugins.composeMultiplatform)
+    // alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
     alias(other.plugins.ktlint)
 }
@@ -22,7 +21,7 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
     }
-    
+
     sourceSets {
         androidMain.dependencies {
             implementation(date.datePickerCore)
@@ -114,12 +113,21 @@ kotlin {
 
 android {
     namespace = "com.kmp.dardev.league.app.template"
-    compileSdk = libs.versions.android.compileSdk.get().toInt()
+    compileSdk =
+        libs.versions.android.compileSdk
+            .get()
+            .toInt()
 
     defaultConfig {
         applicationId = "com.kmp.dardev.league.app.template"
-        minSdk = libs.versions.android.minSdk.get().toInt()
-        targetSdk = libs.versions.android.targetSdk.get().toInt()
+        minSdk =
+            libs.versions.android.minSdk
+                .get()
+                .toInt()
+        targetSdk =
+            libs.versions.android.targetSdk
+                .get()
+                .toInt()
         versionCode = 1
         versionName = "1.0"
     }
@@ -144,7 +152,7 @@ tasks.getByPath("preBuild").dependsOn("ktlintFormat")
 configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
     android.set(true)
     ignoreFailures.set(false)
-    //disabledRules.set(setOf("final-newline", "no-wildcard-imports", "function-naming"))
+    // disabledRules.set(setOf("final-newline", "no-wildcard-imports", "function-naming"))
     reporters {
         reporter(org.jlleitschuh.gradle.ktlint.reporter.ReporterType.PLAIN)
         reporter(org.jlleitschuh.gradle.ktlint.reporter.ReporterType.CHECKSTYLE)
@@ -153,6 +161,5 @@ configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
 }
 
 dependencies {
-    //debugImplementation(compose.uiTooling)
+    // debugImplementation(compose.uiTooling)
 }
-

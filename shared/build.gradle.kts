@@ -9,7 +9,7 @@ plugins {
     alias(libs.plugins.kotlinCocoapods)
     alias(other.plugins.ktlint)
     alias(moko.plugins.mokoResources)
-    alias(sqldelight.plugins.sqldelight)
+    //alias(sqldelight.plugins.sqldelight)
 }
 
 kotlin {
@@ -17,11 +17,11 @@ kotlin {
     iosX64()
     iosArm64()
     iosSimulatorArm64()
-    targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget> {
+    /*targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget> {
         binaries.withType<org.jetbrains.kotlin.gradle.plugin.mpp.Framework> {
             linkerOpts.add("-lsqlite3")
         }
-    }
+    }*/
 
     cocoapods {
         version = "1.0"
@@ -74,8 +74,8 @@ kotlin {
                 api(moko.mokoLibResources)
                 api(moko.mokoGraphics)
 
-                implementation(sqldelight.sqlCommon)
-                implementation(sqldelight.sqlCoroutines)
+                //implementation(sqldelight.sqlCommon)
+                //implementation(sqldelight.sqlCoroutines)
 
                 implementation(ktor.ktorCore)
                 implementation(ktor.ktorCio)
@@ -102,7 +102,7 @@ kotlin {
         val androidMain by getting {
             kotlin.srcDir("build/generated/moko/androidMain/src")
             dependencies {
-                implementation(sqldelight.sqlAndroid)
+                //implementation(sqldelight.sqlAndroid)
                 implementation(ktor.ktorAndroid)
             }
         }
@@ -127,7 +127,7 @@ kotlin {
                 api(moko.mokoLibResources)
                 api(moko.mokoGraphics)
                 api(moko.mokoParcelize)
-                implementation(sqldelight.sqlIos)
+                //implementation(sqldelight.sqlIos)
                 implementation(ktor.ktorIos)
                 implementation(other.touchlabStately)
             }
@@ -156,14 +156,14 @@ android {
     }
 }
 
-sqldelight {
+/*sqldelight {
     databases {
         create("LeagueDatabase") {
             packageName.set("com.kmp.dardev.league.app.template.database")
             srcDirs.setFrom("src/commonMain/sqldelight")
         }
     }
-}
+}*/
 
 multiplatformResources {
     resourcesPackage.set("com.kmp.dardev.league.app.template")
