@@ -1,0 +1,12 @@
+package com.kmp.dardev.league.app.template.core.presentation
+
+import dev.icerock.moko.resources.StringResource
+import dev.icerock.moko.resources.desc.Resource
+import dev.icerock.moko.resources.desc.StringDesc
+import dev.icerock.moko.resources.format
+
+actual class MokoStringsResources {
+    actual fun get(id: StringResource, args: List<Any>): String {
+        return ""
+    }
+}
