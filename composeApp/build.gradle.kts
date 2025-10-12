@@ -152,7 +152,7 @@ tasks.getByPath("preBuild").dependsOn("ktlintFormat")
 configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
     android.set(true)
     ignoreFailures.set(false)
-    // disabledRules.set(setOf("final-newline", "no-wildcard-imports", "function-naming"))
+    // disabledRules.set(setOf("final-newline", "no-wildcard-imports", "function-naming")) -> je souhaite disabled ces rules
     reporters {
         reporter(org.jlleitschuh.gradle.ktlint.reporter.ReporterType.PLAIN)
         reporter(org.jlleitschuh.gradle.ktlint.reporter.ReporterType.CHECKSTYLE)

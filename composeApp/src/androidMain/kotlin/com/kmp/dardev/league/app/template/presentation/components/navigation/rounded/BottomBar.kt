@@ -1,0 +1,94 @@
+package com.kmp.dardev.league.app.template.presentation.components.navigation.rounded
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import com.kmp.dardev.league.app.template.R
+import com.kmp.dardev.league.app.template.navigation.Screen
+import com.kmp.dardev.league.app.template.presentation.common.NavigationIconButton
+import com.kmp.dardev.league.app.template.ui.theme.bottomBarBackground
+
+@Composable
+fun RoundedBottomBar(
+    modifier: Modifier = Modifier,
+    navController: NavController,
+    userID: MutableState<String>,
+    reloadPostFunc: (() -> Unit)? = null,
+) {
+    var popupControl = remember { mutableStateOf(false) }
+
+    Column(
+        modifier =
+            Modifier
+                .padding(
+                    bottom = 50.dp,
+                    start = 36.dp,
+                    end = 36.dp,
+                ),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Box(
+            modifier =
+                Modifier
+                    .fillMaxWidth()
+                    .height(81.dp)
+                    .shadow(
+                        elevation = 4.dp,
+                        shape = RoundedCornerShape(50.dp),
+                    ),
+            contentAlignment = Alignment.Center,
+        ) {
+            Row(
+                modifier =
+                    modifier
+                        .width(322.dp)
+                        .height(81.dp)
+                        .background(
+                            color = MaterialTheme.colorScheme.bottomBarBackground,
+                            shape = RoundedCornerShape(50.dp),
+                        ).padding(start = 30.dp, top = 15.dp, bottom = 15.dp, end = 30.dp),
+                horizontalArrangement = Arrangement.SpaceEvenly,
+            ) {
+                NavigationIconButton(
+                    event = { navController.navigate(Screen.HomePage.route) },
+                    content = R.drawable.homeiconlight,
+                    isActive = true,
+                )
+                Spacer(modifier = Modifier.width(15.dp))
+                NavigationIconButton(
+                    event = { navController.navigate(Screen.HomePage.route) },
+                    content = R.drawable.homeiconlight,
+                    isActive = true,
+                )
+                Spacer(modifier = Modifier.width(15.dp))
+                NavigationIconButton(
+                    event = {
+                        navController.navigate(
+                            Screen.ProfilPage.passDataForProfil(
+                                userId = userID.value,
+                            ),
+                        )
+                    },
+                    content =
+                        if (isSystemInDarkTheme()) {
+                            R.drawable.usericondark
+                        } else {
+                            R.drawable.usericonlight
+                        },
+                    isActive = false,
+                )
+            }
+        }
+    }
+}
