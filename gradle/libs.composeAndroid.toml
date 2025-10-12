@@ -1,0 +1,11 @@
+[versions]
+nav = "2.9.5"
+activityCompose = "1.9.1"
+lifecycle = "2.9.4"
+animation = "1.9.3"
+
+[libraries]
+navigation = { module = "androidx.navigation:navigation-compose", version.ref = "nav" }
+activityCompose = { module = "androidx.activity:activity-compose", version = "1.11.0" }
+viewModelCompose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+animationCompose = { module = "androidx.compose.animation:animation", version.ref = "animation" }

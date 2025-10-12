@@ -1,0 +1,6 @@
+[versions]
+moshi = "1.15.2"
+
+[libraries]
+moshiMain = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+moshiKotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }

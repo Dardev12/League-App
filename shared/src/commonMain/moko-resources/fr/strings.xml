@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="logo_land">Logo MySpot</string>
+    <string name="home_title_screen">Acceuil</string>
+    <string name="research_title_screen">Recherche</string>
+    <string name="create_post_title_screen">Créer Publication</string>
+    <string name="profil_title_screen">Profil</string>
+    <string name="notification_title_screen">Notifications</string>
+    <string name="location_title_screen">Ajout Pin</string>
+    <string name="land_copyright_text">© 2025 MySpot par Dardev</string>
+    <string name="post_filter_text">Post</string>
+    <string name="event_filter_text">Evenement</string>
+    <string name="circuit_filter_text">Circuit</string>
+    <string name="email_text_label">Adresse Email</string>
+    <string name="password_text_label">Mot de passe</string>
+    <string name="repeated_password_text_label">Répeter Mot de passe</string>
+    <string name="username_text_label">Nom d'utilisateur</string>
+    <string name="email_text_hint">Entrez votre adresse email</string>
+    <string name="password_text_hint">Entrez votre mot de passe</string>
+    <string name="repeated_password_text_hint">Répétez votre mot de passe</string>
+    <string name="username_text_hint">Entrez votre nom d'utilisateur</string>
+    <string name="picture_text_label">Photo de Profil</string>
+    <string name="connexion_text_button">Se connecter</string>
+    <string name="enroll_text_button">Créer un compte</string>
+    <string name="connexion_google_text_button">Se connecter avec Google</string>
+    <string name="enroll_google_text_button">S'inscrire avec Google</string>
+    <string name="forgot_password_text_label">Mot de passe oublié</string>
+    <string name="loading_text">Chargement</string>
+    <string name="navigate_to_connexion_text_label">j'ai déjà un compte ?</string>
+    <string name="navigate_to_enroll_text_label">je n'ai pas de compte ?</string>
+    <string name="like_text_label">J'aime</string>
+    <string name="comment_text_label">Commenter</string>
+    <string name="share_text_label">Partager</string>
+    <string name="title_text_label">Titre</string>
+    <string name="description_text_label">Description</string>
+    <string name="location_text_label">Lieu</string>
+    <string name="publish_text_button">Publier</string>
+    <string name="research_hint_text">Recherche un utilisateur ici...</string>
+    <string name="accept_text_button">Accepter</string>
+    <string name="refuse_text_button">Refuser</string>
+    <string name="connexion_success_message">Connecté à MySpot </string>
+    <string name="enroll_success_message">Inscription à MySpot Terminé</string>
+    <string name="publish_post_success_message">Le Post à était publier</string>
+    <string name="connexion_error_validation_message">Veuillez vérifiez et remplir les informations de connection</string>
+    <string name="connexion_error_data_message">L'adresse email ou le mot de passe est incorrect</string>
+    <string name="enroll_error_validation_message">Veuillez vérifiez et remplir les informations d'inscription</string>
+    <string name="enroll_error_data_message">Cette adresse email est déjà relié à un compte MySpot</string>
+    <string name="creation_post_error_validation_message">Veuillez vérifiez et remplir les informations de chaque champs</string>
+    <string name="creation_post_error_data_message">Le Titre, la Description ou la localisation est incorrect</string>
+    <string name="take_picture_text_button">Prendre une photo</string>
+    <string name="take_image_from_storage_text_button">Choisir une Image provenant du Stockage</string>
+    <string name="switch_side_camera_text">Changer de camera</string>
+    <string name="take_picture_text">Camera</string>
+    <string name="follow_text_button">Suivre</string>
+    <string name="unfollow_text_button">Ne plus suivre</string>
+    <string name="parameter_text_button">Parametre</string>
+    <string name="new_username_hint_text">Insérez un nouveau nom d'utilisateur</string>
+    <string name="new_email_hint_text">Insérez un nouvel e-mail</string>
+    <string name="new_password_hint_text">Insérez un nouveau mot de passe</string>
+    <string name="new_repeated_password_hint_text">Insérez l'ancien mot de passe</string>
+    <string name="new_profil_picture_text_button">Modifier la photo de profil</string>
+    <string name="title_hint_text">Insérer un titre</string>
+    <string name="description_hint_text">Insérer une description</string>
+    <string name="location_hint_text">Ajouter un lieu</string>
+    <string name="comment_hint_text">Ajouter un commentaire...</string>
+    <string name="type_account_text_label">Type de compte</string>
+    <string name="private_text_label">Privé</string>
+    <string name="public_text_label">Public</string>
+    <string name="no_result_found_text_label">Aucun résultat trouvé pour votre recherche. Veuillez essayer avec d'autres termes ou effectuer une recherche différente. Merci.</string>
+    <string name="publish_text_button">Publié</string>
+    <string name="error_404_text_label">Désolé, nous n'avons pas pu trouver la page que vous recherchez. Veuillez rafraichir l'application ou revenir en arrière pour continuer. Si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance. Merci.</string>
+    <string name="internet_error_text_label">Uh oh ! Il semble que vous n'êtes pas connecté à Internet. Veuillez vérifier votre connexion réseau et réessayer.</string>
+    <string name="submit_text_button">Envoyer</string>
+    <string name="save_text_label">Sauvegarder</string>
+    <string name="following_text_label">Suivi(e)s</string>
+    <string name="follower_text_label">Followers</string>
+    <string name="accept_request_follow_notification_text_label">%s s'est abonné à vous</string>
+    <string name="request_follow_notification_text_label">%s souhaite s'abonné à vous</string>
+    <string name="accept_use_condition">En créant votre compte vous acceptez les </string>
+    <string name="accept_forgot_password_use_condition">En cliquant vous acceptez les </string>
+    <string name="terms_of_use_text_label">conditions d'utilisation</string>
+    <string name="experimental_version_text_title">Information sur la Release :</string>
+    <string name="experimental_version_text_label">Cher utilisateur,
+        \nVous utilisez actuellement une version expérimentale de notre application. Cette première release vise à recueillir vos précieux commentaires pour améliorer l'application selon vos besoins. Vos données seront conservées temporairement.
+        \nUne mise à jour majeure est prévue pour l'Automne, et vos retours joueront un rôle crucial dans son développement. Votre expérience et vos suggestions façonneront une application encore meilleure, répondant pleinement à vos attentes.
+        \nMerci pour votre soutien et votre participation !
+        \nMySpot
+    </string>
+    <string name="signin_text_label">Se connecter</string>
+    <string name="signup_text_label">S'inscrire</string>
+    <string name="select_picture_text_label">Sélectionnez une image</string>
+    <string name="cancel_follow_request_text_label">Annuler demande</string>
+    <string name="unsave_text_label">Impossible de sauvegarder</string>
+    <string name="location_permission_title">Localisation Permission</string>
+    <string name="location_permission_text_label">La localisation est une fonctionnalité optionnelle. Cependant, si vous activez la fonction "localisation", cela rendra l'utilisation de l'application plus efficace, en particulier pour l'interaction sur la carte de l'application MySpot. L'application utilise votre localisation en arrière-plan, même lorsque l'application n'est pas utilisée. Cela nous permet d'utiliser cette fonction pour générer des revenus non publicitaires au sein de l'application et de fournir des annonces/soutenir la publicité. Les fonctionnalités qui utilisent la localisation en arrière-plan incluent l'interaction sur la carte de l'application MySpot et le ciblage publicitaire.</string>
+    <string name="block_user_button_click">Bloquer cet utilisateur</string>
+    <string name="unblock_user_button_click">Débloquer cet utilisateur</string>
+    <string name="block_post_question">Bloquer cette publication ?</string>
+    <string name="report_post_question">Signaler le poste ?</string>
+    <string name="report_user_question">Signaler l'utilisateur ?</string>
+    <string name="request_sent_info_message">La demande a bien été envoyée.</string>
+    <string name="no_notification_warning">Vous n'avez pas de notification.</string>
+    <string name="camera_permission_request">Veuillez activer la permission de la caméra pour utiliser cette fonctionnalité.</string>
+    <string name="delete_account">Supprimer le compte</string>
+    <string name="confirm_delete_account">Voulez-vous vraiment supprimer votre compte ?</string>
+    <string name="delete_account_success">Compte supprimé avec succès.</string>
+    <string name="delete_account_failure">Échec de la suppression du compte. Veuillez réessayer.</string>
+    <string name="inappropriate_content">Contenu inapproprié</string>
+
+    <string name="next_page_button">SUIVANT</string>
+    <string name="validate_onboarding_button">EXPLORER</string>
+    <string name="page_one_title">Bienvenue sur MySpot – Votre Compagnon de Sortie</string>
+    <string name="page_one_topic">MySpot est conçu pour faciliter vos sorties et explorations. Découvrez de nouveaux lieux, trouvez des activités, et planifiez vos aventures, tout en un seul endroit.</string>
+    <string name="page_two_title">Simplifiez Vos Sorties avec MySpot</string>
+    <string name="page_two_topic">Difficile de planifier une sortie ? MySpot facilite vos choix en vous proposant des suggestions personnalisées d’activités et de lieux selon vos préférences.</string>
+    <string name="page_three_title">Découvrez de Nouveaux Lieux avec Swipy</string>
+    <string name="page_three_topic">Notre nouvelle fonctionnalité Swipy sélectionne pour vous des lieux cachés et des incontournables locaux à explorer. Il suffit de swiper pour découvrir un nouveau lieu à visiter !</string>
+    <string name="page_four_title">Naviguez Facilement avec la Carte Interactive</string>
+    <string name="page_four_topic">Grâce à la carte, visualisez les activités et événements à proximité et trouvez facilement votre chemin vers des lieux captivants.</string>
+    <string name="page_five_title">Commencez votre Aventure avec Swipy !</string>
+    <string name="page_five_topic">Lancez votre aventure avec Swipy et invitez vos amis à vous rejoindre. Découvrez, explorez et partagez l’expérience MySpot ensemble !</string>
+    <string name="regular_event_name">Evenement</string>
+    <string name="art_event_name">Evenement Artistique</string>
+    <string name="sport_event_name">Evenement Actif</string>
+    <string name="validate_title_error_blank">Le Titre ne peux être vide</string>
+    <string name="validate_title_error_contains">Le Titre doit contenir au moins des chiffres et des lettres</string>
+    <string name="validate_description_error_blank">La description ne peux être vide</string>
+    <string name="validate_description_error_contains">La Description doit contenir au moins des chiffres et des lettres</string>
+    <string name="validate_location_error_blank">La Localisation ne peux être vide</string>
+    <string name="validate_location_error_contains">La Localisation doit contenir au moins des chiffres et des lettres</string>
+    <string name="validate_list_guest_error_blank">La Liste d'inviter ne peux être vide</string>
+    <string name="validate_list_guest_error_contains">La Liste d'inviter doit contenir au moins 1 invité.</string>
+    <string name="validate_comment_content_error_blank">Le commentaire ne peux être vide</string>
+    <string name="validate_email_error_blank">Le champ email ne peux être vide</string>
+    <string name="validate_email_error_regex_match">L'email n'est pas valide</string>
+    <string name="validate_password_error_blank">Le mot de passe doit contenir au moins 8 caractères ou plus</string>
+    <string name="validate_password_error_contains">Le mot de passe doit contenir au moins des chiffres et des lettres</string>
+    <string name="validate_repeated_password_error_equal">Le mot de passe est différent du mot de passe entré</string>
+    <string name="validate_repeated_password_error_length">Le mot de passe doit contenir au moins 8 caractères ou plus</string>
+    <string name="validate_repeated_password_error_contains">Le mot de passe doit contenir au moins des chiffres et des lettres</string>
+    <string name="validate_username_error_blank">Le champ username ne peux être vide</string>
+    <string name="validate_event_type_error_blank">Le champ type d'événement ne peut être vide</string>
+    <string name="title_create_event">Créer un événement</string>
+    <string name="visibility_event_hint_text">Souhaitez-vous que votre événement soit privé ou public ?</string>
+    <string name="guest_event_hint_text">Ajouter un invité pour cet événement</string>
+    <string name="type_event_hint_text">Sélectionner un type d'événement</string>
+    <string name="date_start_event_hint_text">Insérez la date de début</string>
+    <string name="date_end_event_hint_text">Insérez la date de fin</string>
+    <string name="visibility_label_text">Visibilité</string>
+    <string name="guest_label_text">Invités</string>
+    <string name="type_event_label_text">Type d'évenement</string>
+    <string name="date_start_label_text">Date de Début</string>
+    <string name="date_end_label_text">Date de Fin</string>
+    <string name="general_event_type_text">Normal</string>
+    <string name="cultural_event_type_text">Culturel</string>
+    <string name="party_event_type_text">Fête</string>
+    <string name="participant_label_text">Participant</string>
+    <string name="no_participant__hint_label_text">Il n'y a actuellement aucun participant.</string>
+    <string name="no_guest__hint_label_text">Il n'y a actuellement aucun invité.</string>
+    <string name="publish_event_success_message">L'événement a été publié avec succès.</string>
+    <string name="publish_event_error_validation_message">Veuillez vérifier et remplir les informations de chaque champ.</string>
+    <string name="participate_to_event_popup_text">Vous participez à cet événement.</string>
+    <string name="unparticipate_to_event_popup_text">Vous ne participez plus à cet événement.</string>
+    <string name="add_event_popup_text">Créer un événement.</string>
+    <string name="add_post_popup_text">Créer une publication.</string>
+    <string name="validate_date_start_error_blank">Le champ "Date de Début" ne peut pas être vide.</string>
+    <string name="validate_date_start_error_past">Le champ "Date de Début" doit avoir une date ultérieure.</string>
+    <string name="validate_date_end_error_equal_to_date_start">Le champ "Date de Fin" ne doit pas être identique au champ "Date de Début".</string>
+    <string name="validate_date_end_error_past_to_date_start">Le champ "Date de Fin" doit avoir une date ultérieure à celle du champ "Date de Début".</string>
+    <string name="validate_date_end_error_blank">Le champ "Date de Fin" ne peut pas être vide.</string>
+    <string name="no_follower_hint_label_text">Il n'y a actuellement aucun followers.</string>
+    <string name="no_following_hint_label_text">Il n'y a actuellement personne qui vous suit.</string>
+    <string name="no_place_proposed_swipy_text">Il n'y a plus de lieux proposés pour le moment.</string>
+    <string name="go_to_web_page">Aller à la page web</string>
+    <string name="go_to_apple_maps">Ouvrir dans Apple Maps</string>
+    <string name="place_type_restaurant">Restaurant</string>
+    <string name="place_type_museum_art">Musée/Art</string>
+    <string name="place_type_cultural_heritage">Patrimoine culturel</string>
+    <string name="place_type_souvenir_local_shop">Magasin</string>
+    <string name="place_type_gourmet_grocery">Épicerie fine</string>
+    <string name="place_type_bakery">Boulangerie</string>
+    <string name="place_type_vineyard">Vignoble</string>
+    <string name="place_type_hiking_trail">Randonnée</string>
+    <string name="place_type_park">Parc</string>
+    <string name="place_type_outdoor_activity">Activité plein air</string>
+    <string name="place_type_hotel">Hôtel</string>
+    <string name="place_type_bar">Bar</string>
+    <string name="place_type_campground">Camping</string>
+    <string name="place_type_aquarium">Aquarium</string>
+    <string name="place_type_zoo">Zoo</string>
+    <string name="place_type_escape_room">Salle d’évasion</string>
+    <string name="place_type_estate">Domaine</string>
+
+
+    <string name="onboarding_tuto_map">Curieux ? Explorez la carte et découvrez ce qu’il y a autour de vous !</string>
+    <string name="onboarding_tuto_ticketmaster">Vous cherchez des événements comme des concerts ? Les pins Ticketmaster sont là pour vous !</string>
+    <string name="onboarding_tuto_place">Vous voulez trouver des lieux comme des parcs ou des restaurants ? Regardez les pins verts !</string>
+    <string name="onboarding_tuto_bottom_bar">Prêt pour des activités instantanées ? Cliquez sur Swipy et partez à l’aventure !</string>
+    <string name="onboarding_tuto_swipy">Faites votre premier swipe et explorez votre premier lieu avec MySpot !</string>
+
+    <string name="survey_feedback_title">Aidez-nous à Améliorer MySpot !</string>
+    <string name="survey_feedback_message">Votre avis compte beaucoup pour nous. Souhaitez-vous prendre quelques instants pour répondre à notre formulaire de satisfaction afin de contribuer à l'amélioration de MySpot ?</string>
+    <string name="survey_feedback_action">Répondre au Formulaire</string>
+
+    <string name="event_type_ticketmaster">Événement</string>
+    <string name="about_us_title">À propos</string>
+    <string name="about_us_topic">
+        MySpot est l’application idéale pour les explorateurs spontanés qui veulent rapidement trouver des activités intéressantes autour d’eux. Simple, rapide et pertinente — nous vous aidons à découvrir des lieux uniques sans perdre de temps.
+    </string>
+
+
+    <string name="bouton_im_going">J’y vais</string>
+    <string name="bouton_learn_more">En savoir plus</string>
+
+    <string name="label_version">Version</string>
+    <string name="label_release_date">Date de sortie</string>
+
+    <string name="label_contact">Contact</string>
+    <string name="label_feedback">Partage ton avis</string>
+    <string name="label_privacy">Conditions d'utilisation</string>
+
+    <string name="label_section_email_password">Section Email et Mot de passe</string>
+    <string name="label_section_account">Section Gestion du compte</string>
+    <string name="label_section_help">Aide-nous à améliorer l'application</string>
+
+    <string name="welcome_bouton_sign_up">On y va !</string>
+    <string name="welcome_title_slide_one">Explorez le Québec comme un local</string>
+    <string name="welcome_topic_slide_one">Vivez-le avec MySpot</string>
+    <string name="welcome_title_slide_two">2 façons d'explorer le Québec</string>
+    <string name="welcome_topic_slide_two">Découvrez 2 types de pin sur MySpot pour profiter pleinement de votre expérience</string>
+    <string name="welcome_topic_slide_two_item_one">Événements Ticketmaster</string>
+    <string name="welcome_topic_slide_two_subitem_one">(Des événements variés — concerts, spectacles, festivals)</string>
+    <string name="welcome_topic_slide_two_item_two">Spots</string>
+    <string name="welcome_topic_slide_two_subitem_two">(Lieux à visiter à tout moment — musées, cafés, restaurants)</string>
+    <string name="welcome_title_slide_three">Explorez instantanément</string>
+    <string name="welcome_topic_slide_three">Découvrez le prochain spot près de vous à explorer au québec</string>
+    <string name="welcome_button_google">Continuer avec Google</string>
+    <string name="welcome_button_apple">Continuer avec Apple</string>
+    <string name="welcome_button_email">S'inscrire avec Email</string>
+
+    <string name="auth_divider_label">ou</string>
+
+    <string name="onboarding_aha_statement_one">J'aimerais sortir plus souvent mais je ne sais pas par où commencer</string>
+    <string name="onboarding_aha_statement_two">J'aimerais briser ma routine sédentaire (je ne sors jamais) et en créer une plus active</string>
+    <string name="onboarding_aha_statement_three">J'ai du mal à planifier mes sorties car je suis désorganisé(e) ou peu concentré(e)</string>
+    <string name="onboarding_aha_statement_question">Vous reconnaissez-vous dans l'énoncé ci-dessous ?</string>
+    <string name="onboarding_aha_statement_yes">OUI</string>
+    <string name="onboarding_aha_statement_no">NON</string>
+    <string name="onboarding_aha_statement_continue">Continuer</string>
+    <string name="onboarding_aha_statement_valuegiven_one">MySpot vous facilitera la recherche de nouveaux lieux et événements au Québec</string>
+    <string name="onboarding_aha_statement_valuegiven_two">avec MySpot nous vous aidons à bouger au Québec et découvrir des spots où aller</string>
+    <string name="onboarding_aha_statement_valuegiven_three">Avec MySpot, vous n'avez pas besoin d'être super organisé(e) : nous suggérons des spots, vous choisissez, nous vous rappelons. Simple et facile de sortir et profiter ! 🎉✨</string>
+    <string name="onboarding_final_bullet_list">
+        • Nous vous suggérons des lieux 🗺️\n• Vous choisissez ce qui vous plît\n• Recevez des rappels automatiquement et explorez ✨
+    </string>
+
+
+    <string name="onboarding_social_proof_title">La meilleure app pour explorer le Québec sur l'App Store</string>
+    <string name="onboarding_social_proof_Button">Continuer</string>
+    <string name="onboarding_social_proof_partner">propulsé par</string>
+    <string name="onboarding_social_proof_fact_one">Spots à découvrir</string>
+    <string name="onboarding_social_proof_fact_two">Événements à vivre</string>
+
+    <string name="onboarding_refferal_title">Explorez le Québec avec vos amis</string>
+    <string name="onboarding_refferal_topic">Partagez MySpot avec ceux qui désirent explorer de nouveaux lieux cachés au Québec</string>
+    <string name="onboarding_refferal_activate_share_button">Partager MySpot</string>
+    <string name="onboarding_refferal_continue_button">Commencer votre Aventure</string>
+    <string name="onboarding_refferal_invite_often">Les utilisateurs de MySpot invitent souvent :</string>
+    <string name="onboarding_refferal_people_who_go_out">Les bouge-toujours</string>
+    <string name="onboarding_refferal_hikers">Randonneurs</string>
+    <string name="onboarding_refferal_tourists">Touristes</string>
+    <string name="onboarding_refferal_discover_myspot">Découvrez MySpot, l'app parfaite pour explorer le Québec ! Téléchargez-la maintenant. 🗺️✨</string>
+
+    <string name="onboarding_microconversion_title">Explorez le Québec plus facilement</string>
+    <string name="onboarding_microconversion_goal">La façon la plus fun d’explorer plus d’1 spot par semaine</string>
+    <string name="onboarding_microconversion_goal_number_spot">+5 sorties/mois</string>
+    <string name="onboarding_microconversion_goal_text_spot">Avec MySpot</string>
+    <string name="onboarding_microconversion_goal_number">2 sorties/mois</string>
+    <string name="onboarding_microconversion_goal_text">Sans MySpot</string>
+    <string name="onboarding_microconversion_section_benefits_title">Avantages d'utiliser MySpot</string>
+    <string name="onboarding_microconversion_benefit_easy_follow">Facile à suivre</string>
+    <string name="onboarding_microconversion_benefit_free_choose">Libre de choisir où aller</string>
+    <string name="onboarding_microconversion_benefit_interactive_suggestions">Suggestions de lieux interactives (pour planifier à l'avance)</string>
+    <string name="onboarding_microconversion_benefit_suggested_places">Lieux suggérés près de vous</string>
+    <string name="onboarding_microconversion_section_help_title">Comment nous vous aidons à y arriver</string>
+    <string name="onboarding_microconversion_help_notifications">Notifications interactives</string>
+    <string name="onboarding_microconversion_help_simple_map">Une carte simple et interactive</string>
+    <string name="onboarding_microconversion_help_event_suggestions">Suggestions d'événements via Ticketmaster</string>
+    <string name="onboarding_microconversion_help_swipy">Une todo qui t'accompagne dans ton exploration</string>
+    <string name="onboarding_microconversion_completed_one">Redécouvrez le Québec sans effort, une aventure par semaine</string>
+    <string name="onboarding_microconversion_completed_two">Je m’engage à atteindre cet objectif</string>
+    <string name="onboarding_microconversion_completed_committed">Maintenez le bouton pour vous engager</string>
+    <string name="onboarding_microconversion_goal_mention">Votre objectif : </string>
+
+    <string name="onboarding_educational_content_act_dont_just_scroll_title">Agis, ne fais pas que défiler !</string>
+    <string name="onboarding_educational_content_act_dont_just_scroll_description_1">➤ Le doom-scrolling — passer des heures à consommer passivement du contenu négatif — baisse ton moral, augmente ton stress et ton anxiété, et affaiblit l’estime de soi (Avertissement Santé Mentale, The Sun).</string>
+    <string name="onboarding_educational_content_act_dont_just_scroll_description_2">➤ Une étude canadienne montre que plus de 2 heures par jour de défilement passif double le risque d’anxiété chez les ados (Étude Défilement Passif, EurekAlert).</string>
+    <string name="onboarding_educational_content_act_dont_just_scroll_description_3">➤ Le New Yorker souligne aussi comment cette “boucle du doom” nourrit une spirale négative et nous rend plus passifs dans la vraie vie (Doomscrolling Is Slowly Eroding Your Soul, New Yorker).</string>
+    <string name="onboarding_educational_content_act_dont_just_scroll_button">Continuer</string>
+
+    <string name="onboarding_educational_content_sedentary_life_title">La vie sédentaire nuit à ta santé</string>
+    <string name="onboarding_educational_content_sedentary_life_description_1">➤ Passer plus de 12 heures par jour assis augmente de 38% le risque de mort prématurée, sauf si tu ajoutes au moins 22 minutes d’activité modérée par jour (Le Monde).</string>
+    <string name="onboarding_educational_content_sedentary_life_description_2">➤ Rester immobile affecte aussi ton cœur: une étude sur les 11–24 ans a montré plus de masse cardiaque et moins de fonction cardiaque (Le Monde).</string>
+    <string name="onboarding_educational_content_sedentary_life_description_3">➤ L’inactivité réduit les interactions sociales, alimente la gratification instantanée (écrans) et affaiblit l’esprit (anxiété, humeur, concentration).</string>
+    <string name="onboarding_educational_content_sedentary_life_button">Continuer</string>
+
+    <string name="onboarding_educational_content_explore_world_title">Explore le monde, transforme ta vie</string>
+    <string name="onboarding_educational_content_explore_world_description_1">➤ Le meilleur remède contre la vie sédentaire? Sors, découvre, explore.</string>
+    <string name="onboarding_educational_content_explore_world_description_2">➤ Mentalement, quelques minutes dans la nature suffisent à réduire le stress, booster ton humeur, ta créativité et ta concentration (Time, PubMed).</string>
+    <string name="onboarding_educational_content_explore_world_description_3">➤ Socialement, marcher avec d’autres ou rejoindre des activités extérieures renforce ton sentiment d’appartenance, crée du lien et réduit la solitude (Grow Therapy).</string>
+    <string name="onboarding_educational_content_explore_world_description_4">➤ Physiquement, même de courtes balades urbaines (15–20 min par jour) boostent la santé cardiaque, équilibrent ton énergie et réduisent les risques à long terme (PopSugar).</string>
+    <string name="onboarding_educational_content_explore_world_button">Continuer</string>
+
+    <string name="onboarding_survey_question_type_person">Quel type de personne es-tu ?</string>
+    <string name="onboarding_survey_answer_type_person_1">Désorganisé &amp; Actif (ADHD)</string>
+    <string name="onboarding_survey_answer_type_person_2">Explorateur</string>
+    <string name="onboarding_survey_answer_type_person_3">Paresseux</string>
+    <string name="onboarding_survey_answer_type_person_4">Sportif</string>
+    <string name="onboarding_survey_answer_type_person_5">Autre</string>
+
+    <string name="onboarding_survey_question_goal">Quel objectif MySpot pourrait t’aider à résoudre ?</string>
+    <string name="onboarding_survey_answer_goal_1">Changer ma routine monotone</string>
+    <string name="onboarding_survey_answer_goal_2">Découvrir des spots loin de chez nous</string>
+    <string name="onboarding_survey_answer_goal_3">Découvrir des spots proches de chez nous</string>
+    <string name="onboarding_survey_answer_goal_4">Bouger plus</string>
+
+    <string name="onboarding_survey_question_usage">Quel type d’utilisation comptes-tu faire avec MySpot ?</string>
+    <string name="onboarding_survey_answer_usage_1">Organiser des sorties à l’avance</string>
+    <string name="onboarding_survey_answer_usage_2">Organiser des sorties à tout moment</string>
+    <string name="onboarding_survey_answer_usage_3">Autre</string>
+
+    <string name="onboarding_survey_question_frequency">Tu sors à quelle fréquence ? (Activité)</string>
+    <string name="onboarding_survey_answer_frequency_1">Jamais</string>
+    <string name="onboarding_survey_answer_frequency_2">Rarement (1-2 par semaine)</string>
+    <string name="onboarding_survey_answer_frequency_3">Souvent (4+ par semaine)</string>
+    <string name="onboarding_survey_answer_frequency_4">Très souvent (7+ par semaine)</string>
+
+    <string name="onboarding_survey_question_status">Quel est ton statut ?</string>
+    <string name="onboarding_survey_answer_status_1">Employé</string>
+    <string name="onboarding_survey_answer_status_2">Entrepreneur</string>
+    <string name="onboarding_survey_answer_status_3">Étudiant</string>
+    <string name="onboarding_survey_answer_status_4">Touriste</string>
+    <string name="onboarding_survey_answer_status_5">Autre</string>
+
+    <string name="onboarding_survey_question_place_type">Quel type de lieux souhaites-tu le plus visiter ?</string>
+    <string name="onboarding_survey_answer_place_type_1">Activité d’extérieur</string>
+    <string name="onboarding_survey_answer_place_type_2">Restaurant</string>
+    <string name="onboarding_survey_answer_place_type_3">Bar</string>
+    <string name="onboarding_survey_answer_place_type_4">Magasin</string>
+    <string name="onboarding_survey_answer_place_type_5">Nature</string>
+
+    <string name="onboarding_survey_question_transport">Quel type de transport utilises-tu le plus souvent ?</string>
+    <string name="onboarding_survey_answer_transport_1">Marche</string>
+    <string name="onboarding_survey_answer_transport_2">Voiture</string>
+    <string name="onboarding_survey_answer_transport_3">Vélo / trottinette / skate</string>
+    <string name="onboarding_survey_answer_transport_4">Bus / taxi / Uber</string>
+
+    <string name="onboarding_survey_question_age">Quel âge as-tu ?</string>
+    <string name="onboarding_survey_answer_age_1">Moins de 18 ans</string>
+    <string name="onboarding_survey_answer_age_2">18-25 ans</string>
+    <string name="onboarding_survey_answer_age_3">25-35 ans</string>
+    <string name="onboarding_survey_answer_age_4">+40 ans</string>
+
+    <string name="onboarding_survey_question_name">Quel est ton nom ?</string>
+    <string name="onboarding_survey_intro_personalisation">, avec MySpot nous t’aidons à atteindre ton objectif d'explorer </string>
+    <string name="onboarding_survey_intro_understood"> On vous pose juste quelques questions rapides pour adapter votre expérience et vous recommander les meilleurs spots et événements</string>
+    <string name="onboarding_survey_fill_all_questions">Veuillez remplir toutes les questions pour pouvoir continuer.</string>
+
+    <string name="onboarding_push_title">Activer les autorisations !</string>
+    <string name="onboarding_push_subtitle">Pour une meilleure expérience, veuillez autoriser ces permissions.</string>
+    <string name="onboarding_push_cta">Continuer</string>
+
+    <string name="permission_camera_title">Caméra</string>
+    <string name="permission_camera_description">Autoriser l'application à utiliser la caméra</string>
+    <string name="permission_location_title">Localisation</string>
+    <string name="permission_location_description">Autoriser l'accès à la localisation afin de pouvoir validé les spots explorer</string>
+    <string name="permission_photo_title">Bibliothèque Photos</string>
+    <string name="permission_photo_description">Autoriser l'application à accéder à vos photos</string>
+    <string name="permission_bluetooth_title">Bluetooth</string>
+    <string name="permission_bluetooth_description">Autoriser la connexion Bluetooth</string>
+    <string name="permission_tracking_title">Suivi</string>
+    <string name="permission_tracking_description">Autoriser le suivi publicitaire</string>
+    <string name="permission_notification_title">Notification</string>
+    <string name="permission_notification_description">Autoriser les notifications push</string>
+    <string name="permission_button_allowed">AUTORISÉ</string>
+    <string name="permission_button_allow">AUTORISER</string>
+
+
+    <string name="apple_reset_title">Impossible de récupérer votre email</string>
+    <string name="apple_reset_description_intro">Pour réessayer, vous devez réinitialiser l'autorisation Apple :</string>
+    <string name="apple_reset_step_one">1️⃣ Ouvrez les Réglages</string>
+    <string name="apple_reset_step_two">2️⃣ Allez dans votre Identifiant Apple</string>
+    <string name="apple_reset_step_three">3️⃣ Mot de passe et sécurité ➜ Apps utilisant votre identifiant ➜ Supprimez "MySpot"</string>
+    <string name="apple_reset_open_settings">Ouvrir les Réglages</string>
+    <string name="apple_reset_close">Fermer</string>
+
+    <string name="auth_apple_issue">Un problème est survenu avec l’authentification Apple pour l’email, veuillez réessayer de vous connecter.</string>
+
+    <string name="top_welcome_message">Allons explorer le Québec</string>
+    <string name="bottom_welcome_message">Planifions ensemble ta sortie du jour</string>
+
+    <string name="quote_title">Le sais-tu ?</string>
+    <string name="cita_one_quebec_chateaufrontenac_1">🏰 Château Frontenac. Construit en 1893 par la compagnie de chemins de fer Canadien Pacifique pour attirer les voyageurs fortunés.</string>
+    <string name="cita_one_quebec_chateaufrontenac_2">🏰 Château Frontenac. C’est l’hôtel le plus photographié au monde 📸.</string>
+    <string name="cita_one_quebec_chateaufrontenac_3">🏰 Château Frontenac. Le film “Catch Me If You Can” (2002, avec Leonardo DiCaprio &amp; Tom Hanks) a tourné certaines scènes à l’intérieur.</string>
+
+    <string name="cita_one_montreal_vieuxmontreal_1">🎬 Le Vieux-Montréal a servi de décor à plusieurs films hollywoodiens, dont The Curious Case of Benjamin Button (2008).</string>
+
+    <string name="cita_one_quebec_pontquebec_1">🌉 Pont de Québec. Construit en 1917, c’est le plus long pont cantilever au monde.</string>
+    <string name="cita_one_quebec_pontquebec_2">🌉 Pont de Québec. Malheureusement, son histoire est marquée par deux effondrements (1907 &amp; 1916), qui ont causé la mort de plus de 80 ouvriers.</string>
+
+    <string name="cita_one_montreal_placedesarts_1">🎭 Place des Arts. Plus grand complexe culturel et artistique au Canada.</string>
+    <string name="cita_one_montreal_placedesarts_2">🎭 Place des Arts. C’est ici que Leonard Cohen a donné certains de ses concerts mythiques.</string>
+
+    <string name="cita_one_saguenay_fjord_1">🌲 Fjord du Saguenay. C’est l’un des seuls fjords habités en Amérique du Nord.</string>
+    <string name="cita_one_saguenay_fjord_2">🌲 Fjord du Saguenay. Les falaises atteignent parfois 400 mètres de haut.</string>
+    <string name="cita_one_saguenay_fjord_3">🌲 Fjord du Saguenay. Les baleines à bosse et les bélugas viennent souvent s’y nourrir 🐋.</string>
+
+    <string name="cita_one_montreal_oratoire_1">⛪ Oratoire Saint-Joseph. Fondé en 1904 par le frère André, canonisé en 2010.</string>
+    <string name="cita_one_montreal_oratoire_2">⛪ Oratoire Saint-Joseph. C’est le plus grand sanctuaire au monde dédié à Saint-Joseph.</string>
+    <string name="cita_one_montreal_oratoire_3">⛪ Oratoire Saint-Joseph. Son dôme est le 2e plus grand au monde après Saint-Pierre de Rome.</string>
+
+    <string name="cita_one_monteregie_montst_hilaire_1">🍁 Mont Saint-Hilaire. Première réserve de biosphère de l’UNESCO au Canada (1978).</string>
+    <string name="cita_one_monteregie_montst_hilaire_2">🍁 Mont Saint-Hilaire. Très prisé pour ses pommes 🍎 → on y organise des cueillettes depuis des générations.</string>
+
+    <string name="cita_one_montreal_stadeolympique_1">🏟️ Stade Olympique. Construit pour les Jeux de 1976, il a coûté plus d’1 milliard $ et a mis 30 ans à être payé.</string>
+    <string name="cita_one_montreal_stadeolympique_2">🏟️ Stade Olympique. Le plongeon de Greg Louganis en 1984 reste un des moments les plus iconiques.</string>
+
+    <string name="share_feedback">Partage ton avis sur MySpot</string>
+    <string name="report_issue">Signaler un problème sur MySpot</string>
+    <string name="join_community">Rejoins la communauté MySpot</string>
+    <string name="under_construction">🚧 Section en développement</string>
+    <string name="logout">Se Déconnecter</string>
+
+    <string name="places_to_visit">Tes Spots à explorer</string>
+    <string name="three_places_to_do">3 Spots à explorer</string>
+    <string name="three_events_to_do">3 Événements à vivre</string>
+
+    <string name="todo_button">Go explorer !</string>
+    <string name="todo_title">Ta To-Do d’aventures</string>
+    <string name="todo_spot_done">Spot exploré</string>
+    <string name="todo_intro">Ensemble, on part à l’aventure, explorez le Québec !</string>
+    <string name="todo_days_left">%s jours pour explorer tes Spots ⏳</string>
+    <string name="todo_spots_waiting">%s Spots t’attendent… prêts à partir ? 🎒</string>
+    <string name="todo_one_waiting">1 Spot t’attend… prêt·e à partir ? 🎒</string>
+    <string name="todo_one_expire">7 jours pour ce Spot… après, il s’évapore</string>
+    <string name="todo_many_expire">7 jours pour ces Spots… après, pouf, ils disparaissent</string>
+    <string name="todo_today_one">Tu as 1 spot à explorez aujourd'hui</string>
+    <string name="todo_week_many">Tu as %s spot à explorez cette semaine</string>
+    <string name="todo_days_counter">Plus que %s jours pour explorer ! ⏳</string>
+
+    <string name="limit_reached_simple">Tu as déjà ajouté 5 spots cette semaine 🚀. Termine tes autres sorties avant d’en ajouter de nouveaux !</string>
+    <string name="system_error">Oups 😅 Une erreur est survenue de notre côté. Réessaie un peu plus tard !</string>
+    <string name="hourly_anecdote">Affiche une anecdote toutes les heures.</string>
+
+    <string name="welcome_notify_title_first">Bienvenue à bord 🚀</string>
+    <string name="welcome_notify_content_first">Salut , ici MySpot 👋 Ravi que tu sois avec nous ! Prêt à découvrir des Spots secrets au Québec et vivre l’exploration comme jamais ? 🌍</string>
+
+    <string name="welcome_notify_title_second">MySpot, c’est pour toi ✨</string>
+    <string name="welcome_notify_content_second">Que veux-tu faire aujourd’hui?- Découvrir un nouveau café cool ☕ - Trouver un spot secret 🌲 - Partager tes aventures avec tes amis 👯‍♂️ Avec MySpot, chaque clic te rapproche de la prochaine expérience 🚀</string>
+
+    <string name="welcome_notify_title_three">Voici ce que tu vas adorer explorer 😎</string>
+    <string name="welcome_notify_content_three">Prépare-toi à tomber amoureux·se de :- Cafés et microbrasseries locales 🍻 - Spots culturels et musées 🖼 - Lieux secrets et instagrammables 📸 Chaque lieu est choisi pour toi, rien que pour toi 👑</string>
+
+    <string name="welcome_notify_title_four">Rejoins notre crew Skool ! 🤝</string>
+    <string name="welcome_notify_content_four">Hey, tu as testé l’app… maintenant viens rejoindre notre communauté Skool 🌟 Partage tes découvertes, discute avec d’autres explorateurs et laisse-nous ton avis 👍 Ton opinion compte vraiment !</string>
+
+    <string name="welcome_notify_title_five">On veut ton avis %s 📝</string>
+    <string name="welcome_notify_content_five">Ça fait 5 jours que tu explores avec MySpot 🌍 Si tu aimes ce que tu vois, donne-nous une note ⭐ Ça prend 30 secondes et ça aide vraiment notre aventure à continuer 🚀</string>
+
+    <string name="event_reward_title_generic">🏆 Spot exploré, mission accomplie !</string>
+    <string name="event_reward_content_generic">Bravo, tu viens de visiter %s. Bien joué !</string>
+
+    <string name="event_proposal_title_generic">🗺️ Prêt·e pour une nouvelle aventure ?</string>
+    <string name="event_proposal_content_generic">On espère que tu as aimé explorer %s. On se planifie une prochaine exploration ensemble ?</string>
+
+    <string name="pop_up_notify_title">🎉 Félicitations !</string>
+    <string name="pop_up_notify_content">On espère que tu as aimé explorer %s.On se planifie une prochaine sortie ensemble ?</string>
+    <string name="pop_up_notify_button">Découvrir un autre lieu</string>
+
+    <string name="anti_churn_title_three">Hey, tout roule avec MySpot ? 🤔</string>
+    <string name="anti_churn_content_three">Si quelque chose bug, dis-le nous direct 👇 Clique sur “Signaler un problème” dans l’app. On règle ça vite, promis.</string>
+
+    <string name="anti_churn_title_one">Ok… on arrête de te déranger 👀</string>
+    <string name="anti_churn_content_one">Apparemment tu veux plus de vibes MySpot… Pas grave, on va garder nos spots secrets 🤐 (Psst… reviens, j’ai encore mieux à te montrer 👇)</string>
+
+    <string name="survey_one">Quelle partie du Québec souhaites-tu explorer ?</string>
+    <string name="survey_two">Comment as-tu entendu parler de MySpot ?</string>
+    <string name="survey_three">Connais-tu déjà un peu cette région du Québec ?</string>
+    <string name="survey_four">Pourquoi veux-tu explorer cette région ?</string>
+    <string name="survey_five">Quel est ton objectif, %s ?</string>
+    <string name="survey_six">Commence par explorer un premier Spot cette semaine : choisis-en un parmi ces deux !</string>
+
+    <string name="survey_six_CTA">Ajouter à ma To-Do</string>
+    <string name="survey_six_counter_CTA">Je préfère découvrir un autre Spot</string>
+    <string name="survey_six_success">Bravo ! 🎉 Tu as ajouté ton premier Spot. On a hâte de te voir en explorer d’autres cette semaine. En bonus, voici un petit cadeau : 7 jours gratuits pour tester notre version améliorée !</string>
+    <string name="survey_six_success_CTA">JE VEUX MES 7 JOURS GRATUITS</string>
+
+    <string name="survey_item_region_1">Abitibi-Témiscamingue</string>
+    <string name="survey_item_region_2">Bas-Saint-Laurent</string>
+    <string name="survey_item_region_3">Capitale-Nationale</string>
+    <string name="survey_item_region_4">Centre-du-Québec</string>
+    <string name="survey_item_region_5">Chaudière-Appalaches</string>
+    <string name="survey_item_region_6">Côte-Nord</string>
+    <string name="survey_item_region_7">Estrie</string>
+    <string name="survey_item_region_8">Gaspésie–Îles-de-la-Madeleine</string>
+    <string name="survey_item_region_9">Lanaudière</string>
+    <string name="survey_item_region_10">Laurentides</string>
+    <string name="survey_item_region_11">Laval</string>
+    <string name="survey_item_region_12">Mauricie</string>
+    <string name="survey_item_region_13">Montérégie</string>
+    <string name="survey_item_region_14">Montréal</string>
+    <string name="survey_item_region_15">Nord-du-Québec</string>
+    <string name="survey_item_region_16">Outaouais</string>
+    <string name="survey_item_region_17">Saguenay–Lac-Saint-Jean</string>
+
+    <string name="survey_five_item_1">Tranquille</string>
+    <string name="survey_five_item_2">Normal</string>
+    <string name="survey_five_item_3">Intensif</string>
+    <string name="survey_five_item_4">Extrême</string>
+
+    <string name="survey_five_item_1_default">1 spot/semaine</string>
+    <string name="survey_five_item_2_default">2 spots/semaine</string>
+    <string name="survey_five_item_3_default">4 spots/semaine</string>
+    <string name="survey_five_item_4_default">7 spots/semaine</string>
+
+    <string name="survey_two_item_1">Recherche Google</string>
+    <string name="survey_two_item_2">Youtube</string>
+    <string name="survey_two_item_3">Facebook ou Instagram</string>
+    <string name="survey_two_item_4">App Store ou Play Store</string>
+    <string name="survey_two_item_5">Famille ou Amis</string>
+    <string name="survey_two_item_6">Tiktok</string>
+
+    <string name="survey_three_item_1">Je viens de m'installer ici</string>
+    <string name="survey_three_item_2">Je connais quelques spots ici</string>
+    <string name="survey_three_item_3">Je connais beaucoup de spots ici</string>
+    <string name="survey_three_item_4">Je connais cette région comme ma poche</string>
+
+    <string name="survey_four_item_1">Changer ma routine</string>
+    <string name="survey_four_item_2">M'aider à mieux connaître le Québec</string>
+    <string name="survey_four_item_3">Avoir du fun</string>
+    <string name="survey_four_item_4">J'y viens en vacances</string>
+    <string name="survey_four_item_5">J'y viens pour immigrer</string>
+    
+    <string name="title_pre_paywall">Avec MySpot, tu explores </string>
+    <string name="title_pre_paywall_second"> plus le Québec. Plus de découvertes, moins de recherches.</string>
+    <string name="Premium_option_one">Débloque tous les lieux</string>
+    <string name="Premium_option_two">Zéro pubs, que du fun</string>
+    <string name="Premium_option_three">Todo illimitée de spot à explorer</string>
+    <string name="Premium_option_four">Badge d’explorateur</string>
+    <string name="Premium_option_five">Soutiens MySpot &amp; accède à la communauté</string>
+    <string name="paywall_optin_cta_yes">OBTENIR MON INVITATION GRATUITE POUR 0.00 %s</string>
+    <string name="paywall_optin_cta_no">Non Merci</string>
+    <string name="title_Section_NOTIFY">Tu recevras un rappel</string>
+    <string name="title_Section_NOTIFY_day"> %s jours </string>
+    <string name="title_Section_NOTIFY_second">avant la fin de ton invitation gratuite.</string>
+    <string name="notify_days_before">%s jours avant</string>
+    <string name="notify_cancel_anytime">Annule à tout moment, sans frais.</string>
+    <string name="paywall_generic_cta">COMMENCER MON INVITATION GRATUITE</string>
+    <string name="title_offer_paywall_spot">Plus de lieux.</string>
+    <string name="title_offer_paywall"> Moins de recherches. MySpot rend ça facile.</string>
+    <string name="offer_basic_discovery">Découverte de base</string>
+    <string name="offer_zero_ads">Zéro Pubs</string>
+    <string name="offer_access_all_spots">Acces à tous les spots</string>
+    <string name="offer_unlimited_list">Todo illimitée</string>
+    <string name="offer_explorer_badge">Badge explorateur</string>
+    <string name="offer_community">Communauté</string>
+    <string name="title_paywall">Ce qui t’attend après ton essai gratuit.</string>
+    <string name="generic_tag_popular_plan">LE PLUS POPULAIRE</string>
+    <string name="generic_yearly_pricing_month_plan">%s/MOIS</string>
+    <string name="generic_yearly_pricing_week_plan">%s/SEMAINE</string>
+    <string name="paywall_cancel_anytime">Résilie quand tu veux, depuis l’App Store</string>
+    <string name="paywall_see_all_plans">VOIR TOUTES LES OFFRES</string>
+    <string name="title_other_paywall">Choisis ton abonnement et commence à explorer</string>
+    <string name="other_paywall_free_trial">7 JOURS GRATUITS</string>
+    <string name="other_paywall_no_trial">PAS D’ESSAI GRATUIT</string>
+    <string name="other_paywall_cancel">Résiliable à tout moment dans l’App Store</string>
+    <string name="generic_yearly_plan_name">Individuel</string>
+    <string name="generic_monthly_plan_name">Mensuel</string>
+    <string name="generic_weekly_plan_name">Hebdo</string>
+    <string name="generic_yearly_plan_sums">12 mois - %s</string>
+    <string name="reminder_myspot">Rappel MySpot</string>
+    <string name="trial_ending_soon">Votre essai gratuit se termine bientôt !</string>
+    <string name="product_unavailable">Produit non disponible</string>
+    <string name="purchase_error">Erreur d'achat</string>
+    <string name="purchase_in_progress">Achat en cours...</string>
+    <string name="continue_with_price">Continuer - %s</string>
+    <string name="continue_without_price">Démarrer mon abonnement</string>
+    <string name="start_free_trial">Commencer l'essai gratuit</string>
+    <string name="free_trial_terms">Essai gratuit 7 jours • Annuler à tout moment</string>
+
+</resources>

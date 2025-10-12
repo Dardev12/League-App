@@ -1,0 +1,14 @@
+[versions]
+moko = "0.25.1"
+moko-graphics = "0.10.1"
+moko-parcelize = "0.9.0"
+
+[libraries]
+mokoLibResources = { module = "dev.icerock.moko:resources", version.ref = "moko" }
+mokoResourcesGenerator = { module = "dev.icerock.moko:resources-generator", version.ref = "moko" }
+mokoGraphics = { module = "dev.icerock.moko:graphics", version.ref = "moko-graphics" }
+mokoCompose = { module = "dev.icerock.moko:resources-compose", version.ref = "moko" }
+mokoParcelize = { module = "dev.icerock.moko:parcelize", version.ref = "moko-parcelize" }
+
+[plugins]
+mokoResources = { id = "dev.icerock.mobile.multiplatform-resources" }

@@ -8,3 +8,29 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform) apply false
     alias(libs.plugins.kotlinCocoapods) apply false
 }
+
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven {
+            url = uri("http://maven.nodle.io")
+            isAllowInsecureProtocol = true
+        }
+    }
+    dependencies {
+        classpath(moko.mokoResourcesGenerator)
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("http://maven.nodle.io")
+            isAllowInsecureProtocol = true
+        }
+    }
+}
