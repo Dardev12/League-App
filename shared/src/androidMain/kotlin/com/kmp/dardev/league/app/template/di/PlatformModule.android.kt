@@ -17,7 +17,7 @@ actual fun platformModule(): Module = module {
     }*/
 
     // DAO
-    factory<IUserDAO> { UserDAO(get()) }
+    factory<IUserDAO> { UserDAO() }
 
     // Use Case
     factory {

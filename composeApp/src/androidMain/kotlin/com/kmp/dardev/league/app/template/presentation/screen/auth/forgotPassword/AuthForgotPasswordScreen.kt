@@ -109,7 +109,7 @@ fun AuthForgotPasswordScreen(
                 verticalArrangement = Arrangement.Center,
             ) {
                 Image(
-                    painterResource(id = R.drawable.logoauth),
+                    painterResource(id = R.drawable.land_logo_degrade_symbole),
                     modifier = Modifier.width(100.dp).height(120.dp),
                     alignment = Alignment.TopCenter,
                     contentDescription = "",

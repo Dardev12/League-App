@@ -45,7 +45,7 @@ fun AuthMenuScreen(
                 verticalArrangement = Arrangement.Center,
             ) {
                 Image(
-                    painterResource(id = R.drawable.logoauth),
+                    painterResource(id = com.kmp.dardev.league.app.template.shared.R.drawable.info),
                     modifier = Modifier.width(100.dp).height(120.dp),
                     alignment = Alignment.TopCenter,
                     contentDescription = AndroidStringResource(id = SharedRes.strings.logo_land),

@@ -3,7 +3,6 @@ package com.kmp.dardev.league.app.template.presentation.screen.onboarding.compon
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
-import android.graphics.BitmapFactory
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.foundation.Image
@@ -12,7 +11,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -24,9 +22,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -48,19 +43,6 @@ fun PageFourPost(
     onboardClick: () -> Unit,
     context: Context,
 ) {
-    val options =
-        BitmapFactory.Options().apply {
-            inSampleSize = 2
-        }
-
-    val bitmap =
-        BitmapFactory.decodeResource(
-            context.resources,
-            R.drawable.reliefbleu,
-            options,
-        )
-    val imageBitmap = bitmap.asImageBitmap()
-
     val locale = LocalConfiguration.current.locales[0]
     val isFrench = locale.language == Locale.FRENCH.language
 
@@ -71,13 +53,6 @@ fun PageFourPost(
                     .fillMaxSize()
                     .background(MaterialTheme.colorScheme.background),
         ) {
-            // Image de fond
-            Image(
-                bitmap = imageBitmap,
-                contentDescription = "Background Image",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxHeight().alpha(0.5f),
-            )
             Column(
                 modifier =
                     Modifier
@@ -88,13 +63,7 @@ fun PageFourPost(
                 Spacer(modifier = Modifier.height(25.dp))
                 // Image
                 Image(
-                    if (isFrench) {
-                        painterResource(id = R.drawable.tutopublicationfr)
-                    } else {
-                        painterResource(
-                            id = R.drawable.tutopublicationen,
-                        )
-                    },
+                    painterResource(id = com.kmp.dardev.league.app.template.shared.R.drawable.info),
                     modifier = Modifier.width(317.dp).height(400.dp),
                     alignment = Alignment.TopCenter,
                     contentDescription = AndroidStringResource(id = SharedRes.strings.logo_land),

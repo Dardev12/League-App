@@ -126,4 +126,8 @@
     <string name="page_four_topic">With the map, you can view nearby activities and events and find your way to exciting spots effortlessly.</string>
     <string name="page_five_title">Start Your Adventure with Swipy – Share My_Land!</string>
     <string name="page_five_topic">Begin your journey with Swipy and invite friends to join the fun. Discover, explore, and share the My_Land experience together!</string>
+
+    <string name="survey_feedback_title">Help Us Improve Land App !</string>
+    <string name="survey_feedback_message">Your feedback is important to us. Would you like to take a few moments to answer our satisfaction survey and contribute to the improvement of Land App ?</string>
+    <string name="survey_feedback_action">Take the Survey</string>
 </resources>

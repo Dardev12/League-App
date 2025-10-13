@@ -59,7 +59,7 @@ fun OptionDialog(
                         AndroidStringResource(
                             id = SharedRes.strings.take_picture_text_button,
                         ),
-                    iconContent = R.drawable.cameralight,
+                    iconContent = com.kmp.dardev.league.app.template.shared.R.drawable.cameralight,
                 )
                 Spacer(modifier = Modifier.height(20.dp))
                 ImageButton(
@@ -68,7 +68,7 @@ fun OptionDialog(
                         AndroidStringResource(
                             id = SharedRes.strings.take_image_from_storage_text_button,
                         ),
-                    iconContent = R.drawable.uploadicon,
+                    iconContent = com.kmp.dardev.league.app.template.shared.R.drawable.uploadicon,
                 )
             }
         }

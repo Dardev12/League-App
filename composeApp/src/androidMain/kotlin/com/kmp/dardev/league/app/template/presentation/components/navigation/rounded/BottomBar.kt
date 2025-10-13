@@ -62,13 +62,13 @@ fun RoundedBottomBar(
             ) {
                 NavigationIconButton(
                     event = { navController.navigate(Screen.HomePage.route) },
-                    content = R.drawable.homeiconlight,
+                    content = com.kmp.dardev.league.app.template.shared.R.drawable.usericonlight,
                     isActive = true,
                 )
                 Spacer(modifier = Modifier.width(15.dp))
                 NavigationIconButton(
                     event = { navController.navigate(Screen.HomePage.route) },
-                    content = R.drawable.homeiconlight,
+                    content = com.kmp.dardev.league.app.template.shared.R.drawable.usericonlight,
                     isActive = true,
                 )
                 Spacer(modifier = Modifier.width(15.dp))
@@ -82,9 +82,9 @@ fun RoundedBottomBar(
                     },
                     content =
                         if (isSystemInDarkTheme()) {
-                            R.drawable.usericondark
+                            com.kmp.dardev.league.app.template.shared.R.drawable.usericondark
                         } else {
-                            R.drawable.usericonlight
+                            com.kmp.dardev.league.app.template.shared.R.drawable.usericonlight
                         },
                     isActive = false,
                 )

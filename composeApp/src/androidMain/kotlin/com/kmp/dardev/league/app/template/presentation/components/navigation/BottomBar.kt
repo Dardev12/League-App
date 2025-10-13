@@ -55,13 +55,13 @@ fun BottomBar(
             ) {
                 NavigationIconButton(
                     event = { navController.navigate(Screen.HomePage.route) },
-                    content = R.drawable.homeiconlight,
+                    content = com.kmp.dardev.league.app.template.shared.R.drawable.info,
                     isActive = true,
                 )
                 Spacer(modifier = Modifier.width(15.dp))
                 NavigationIconButton(
                     event = { navController.navigate(Screen.HomePage.route) },
-                    content = R.drawable.homeiconlight,
+                    content = com.kmp.dardev.league.app.template.shared.R.drawable.info,
                     isActive = false,
                 )
                 Spacer(modifier = Modifier.width(15.dp))
@@ -75,9 +75,9 @@ fun BottomBar(
                     },
                     content =
                         if (isSystemInDarkTheme()) {
-                            R.drawable.usericondark
+                            com.kmp.dardev.league.app.template.shared.R.drawable.usericondark
                         } else {
-                            R.drawable.usericonlight
+                            com.kmp.dardev.league.app.template.shared.R.drawable.usericonlight
                         },
                     isActive = false,
                 )

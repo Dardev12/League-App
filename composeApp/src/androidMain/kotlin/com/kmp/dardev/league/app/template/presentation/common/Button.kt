@@ -107,7 +107,7 @@ fun GoogleButton(
                         .align(Alignment.Center),
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.googlelogo),
+                    painter = painterResource(id = com.kmp.dardev.league.app.template.shared.R.drawable.googlelogo),
                     contentDescription = "googleLogo",
                     modifier =
                         Modifier

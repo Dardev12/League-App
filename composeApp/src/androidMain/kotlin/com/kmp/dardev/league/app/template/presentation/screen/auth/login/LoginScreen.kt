@@ -3,7 +3,6 @@ package com.kmp.dardev.league.app.template.presentation.screen.auth.login
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
-import android.graphics.BitmapFactory
 import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -22,10 +21,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -56,20 +52,9 @@ import org.koin.androidx.compose.koinViewModel
 @Composable
 fun AuthSignInScreen(
     navController: NavController,
-    viewModel: LoginViewModel = koinViewModel(),
     context: Context,
+    viewModel: LoginViewModel = koinViewModel(),
 ) {
-    val options =
-        BitmapFactory.Options().apply {
-            inSampleSize = 2
-        }
-    val bitmap =
-        BitmapFactory.decodeResource(
-            context.resources,
-            R.drawable.reliefbleu,
-            options,
-        )
-    val imageBitmap = bitmap.asImageBitmap()
     val coroutineScope = rememberCoroutineScope()
     var email = remember { mutableStateOf("") }
     var password = remember { mutableStateOf("") }
@@ -131,14 +116,6 @@ fun AuthSignInScreen(
                     .fillMaxSize()
                     .background(MaterialTheme.colorScheme.background),
         ) {
-            // Image de fond
-            Image(
-                bitmap = imageBitmap,
-                contentDescription = "Background Image",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxSize().alpha(0.5f),
-            )
-
             Column(
                 modifier =
                     Modifier
@@ -147,7 +124,7 @@ fun AuthSignInScreen(
                 verticalArrangement = Arrangement.Center,
             ) {
                 Image(
-                    painterResource(id = R.drawable.logoauth),
+                    painterResource(id = com.kmp.dardev.league.app.template.shared.R.drawable.info),
                     modifier = Modifier.width(100.dp).height(120.dp),
                     alignment = Alignment.TopCenter,
                     contentDescription = AndroidStringResource(id = SharedRes.strings.logo_land),

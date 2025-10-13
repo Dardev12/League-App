@@ -1,19 +1,13 @@
 package com.kmp.dardev.league.app.template.presentation.components
 
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.viewinterop.AndroidView
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdSize
-import com.google.android.gms.ads.AdView
 
 @Composable
 fun BannerAds(
-    size: AdSize,
-    id: String,
+    /*size: AdSize,
+    id: String,*/
 ) {
-    AndroidView(
+    /*AndroidView(
         modifier = Modifier.fillMaxWidth(),
         factory = { context ->
             AdView(context).apply {
@@ -22,5 +16,5 @@ fun BannerAds(
                 loadAd(AdRequest.Builder().build())
             }
         },
-    )
+    )*/
 }

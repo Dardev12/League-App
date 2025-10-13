@@ -34,6 +34,8 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.navigation.NavController
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
+import com.google.accompanist.permissions.PermissionStatus
+import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
 import com.kmp.dardev.league.app.template.R
 import com.kmp.dardev.league.app.template.SharedRes
@@ -95,11 +97,14 @@ fun CameraScreen(
 
     // État pour la permission de la caméra
     val cameraPermissionState = rememberPermissionState(Manifest.permission.CAMERA)
-    val permissionsGranted = cameraPermissionState.hasPermission
+    val permissionsGranted = cameraPermissionState.status
 
     LaunchedEffect(key1 = cameraPermissionState) {
-        if (!permissionsGranted && !cameraPermissionState.permissionRequested) {
-            cameraPermissionState.launchPermissionRequest()
+        when (cameraPermissionState.status) {
+            is PermissionStatus.Denied -> {
+                cameraPermissionState.launchPermissionRequest()
+            }
+            else -> Unit
         }
     }
 
@@ -129,7 +134,7 @@ fun CameraScreen(
                         .fillMaxWidth(),
                 horizontalArrangement = Arrangement.End,
             ) {
-                if (permissionsGranted) {
+                if (permissionsGranted.isGranted) {
                     IconButton(onClick = { navController.navigate(Screen.HomePage.route) }) {
                         Icon(
                             imageVector = Icons.Default.Close,
@@ -155,7 +160,7 @@ fun CameraScreen(
             }
         },
         bottomBar = {
-            if (permissionsGranted) {
+            if (permissionsGranted.isGranted) {
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.Center,
@@ -255,7 +260,7 @@ fun CameraScreen(
             }
         },
     ) {
-        if (permissionsGranted) {
+        if (permissionsGranted.isGranted) {
             AndroidView({ previewView }, modifier = Modifier.fillMaxSize())
         } else {
             Box(

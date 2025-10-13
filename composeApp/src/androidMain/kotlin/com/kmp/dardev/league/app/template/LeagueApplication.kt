@@ -3,7 +3,6 @@ package com.kmp.dardev.league.app.template
 import android.app.Application
 import androidx.work.Configuration
 import androidx.work.WorkManager
-import com.google.android.libraries.places.api.Places
 import com.kmp.dardev.league.app.template.di.KoinWorkerFactory
 import com.kmp.dardev.league.app.template.di.androidModule
 import com.kmp.dardev.league.app.template.di.appModule
@@ -22,7 +21,7 @@ class LeagueApplication : Application() {
             androidLogger()
             modules(appModule() + platformModule() + androidModule)
         }
-        Places.initializeWithNewPlacesApiEnabled(this, getString(R.string.GOOGLE_API_KEY))
+        // Places.initializeWithNewPlacesApiEnabled(this, "")
 
         WorkManager.initialize(
             this,

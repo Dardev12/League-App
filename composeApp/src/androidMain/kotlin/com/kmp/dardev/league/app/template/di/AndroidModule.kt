@@ -6,7 +6,7 @@ import com.kmp.dardev.league.app.template.cache.session.ISessionCache
 import com.kmp.dardev.league.app.template.cache.session.SessionCache
 import com.kmp.dardev.league.app.template.presentation.screen.auth.forgotPassword.AuthForgotPasswordViewModel
 import com.kmp.dardev.league.app.template.presentation.screen.auth.login.LoginViewModel
-import com.kmp.dardev.league.app.template.presentation.screen.auth.signup.AuthSignUpViewModel
+import com.kmp.dardev.league.app.template.presentation.screen.auth.register.RegisterViewModel
 import com.kmp.dardev.league.app.template.presentation.screen.camera.CameraViewModel
 import com.kmp.dardev.league.app.template.presentation.screen.home.HomeViewModel
 import com.kmp.dardev.league.app.template.presentation.screen.onboarding.OnboardingViewModel
@@ -21,7 +21,7 @@ import org.koin.dsl.module
 val androidModule =
     module {
         viewModelOf(::LoginViewModel)
-        viewModelOf(::AuthSignUpViewModel)
+        viewModelOf(::RegisterViewModel)
         viewModelOf(::AuthForgotPasswordViewModel)
         viewModelOf(::HomeViewModel)
         viewModelOf(::CameraViewModel)

@@ -1,9 +1,8 @@
-package com.kmp.idea.android.presentation.screen.auth.register
+package com.kmp.dardev.league.app.template.presentation.screen.auth.register
 
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
-import android.graphics.BitmapFactory
 import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -27,10 +26,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.SpanStyle
@@ -50,7 +46,6 @@ import com.kmp.dardev.league.app.template.presentation.common.CopyrightText
 import com.kmp.dardev.league.app.template.presentation.common.GoogleButton
 import com.kmp.dardev.league.app.template.presentation.common.LoadingButton
 import com.kmp.dardev.league.app.template.presentation.common.OutlinedTextField
-import com.kmp.dardev.league.app.template.presentation.screen.auth.register.RegisterViewModel
 import com.kmp.dardev.league.app.template.ui.theme.successColor
 import com.kmp.dardev.league.app.template.ui.theme.textColor
 import com.kmp.dardev.league.app.template.util.AndroidStringResource
@@ -69,17 +64,6 @@ fun AuthSignUpScreen(
     context: Context,
     viewModel: RegisterViewModel = koinViewModel(),
 ) {
-    val options =
-        BitmapFactory.Options().apply {
-            inSampleSize = 2
-        }
-    val bitmap =
-        BitmapFactory.decodeResource(
-            context.resources,
-            R.drawable.reliefbleu,
-            options,
-        )
-    val imageBitmap = bitmap.asImageBitmap()
     val scrollState = rememberScrollState()
     val uriHandler = LocalUriHandler.current
     val coroutineScope = rememberCoroutineScope()
@@ -175,13 +159,6 @@ fun AuthSignUpScreen(
                     .fillMaxSize()
                     .background(MaterialTheme.colorScheme.background),
         ) {
-            // Image de fond
-            Image(
-                bitmap = imageBitmap,
-                contentDescription = "Background Image",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxSize().alpha(0.5f),
-            )
             Column(
                 modifier =
                     Modifier
@@ -192,7 +169,7 @@ fun AuthSignUpScreen(
                 verticalArrangement = Arrangement.Center,
             ) {
                 Image(
-                    painterResource(id = R.drawable.logoauth),
+                    painterResource(id = com.kmp.dardev.league.app.template.shared.R.drawable.info),
                     modifier = Modifier.width(100.dp).height(120.dp),
                     alignment = Alignment.TopCenter,
                     contentDescription = "",

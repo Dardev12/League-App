@@ -70,7 +70,7 @@ kotlin {
             implementation(google.gmsGoogleMap)
             implementation(google.googlePlaces)
             implementation(google.guava)
-            implementation(google.playAdsService)
+            // implementation(google.playAdsService)
             implementation(google.auth)
 
             implementation(materialdesign.materialD3)

@@ -18,7 +18,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.google.android.gms.ads.MobileAds
 import com.kmp.dardev.league.app.template.navigation.NavModel
 import com.kmp.dardev.league.app.template.ui.theme.AppTheme
 import com.kmp.dardev.league.app.template.util.AndroidStringResource
@@ -132,7 +131,7 @@ class MainActivity : ComponentActivity() {
         outputDirectory = getOutputDirectory()
         cameraExecutor = Executors.newSingleThreadExecutor()
 
-        MobileAds.initialize(this) {}
+        // MobileAds.initialize(this) {}
 
         ratingManager = ReviewManager(applicationContext, this)
 

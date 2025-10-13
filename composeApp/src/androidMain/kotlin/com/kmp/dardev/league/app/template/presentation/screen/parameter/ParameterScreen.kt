@@ -2,7 +2,6 @@ package com.kmp.dardev.league.app.template.presentation.screen.parameter
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.graphics.BitmapFactory
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -27,12 +26,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.kmp.dardev.league.app.template.R
 import com.kmp.dardev.league.app.template.presentation.common.CopyrightText
 import com.kmp.dardev.league.app.template.presentation.screen.parameter.component.ParameterExpandableSection
 import com.kmp.dardev.league.app.template.presentation.screen.parameter.component.ParameterInfoSection
@@ -48,17 +45,6 @@ fun ParameterScreen(
     context: Context,
     viewModel: ParameterViewModel = koinViewModel(),
 ) {
-    val options =
-        BitmapFactory.Options().apply {
-            inSampleSize = 2
-        }
-    val bitmap =
-        BitmapFactory.decodeResource(
-            context.resources,
-            R.drawable.reliefbleu,
-            options,
-        )
-    val imageBitmap = bitmap.asImageBitmap()
     val coroutineScope = rememberCoroutineScope()
     val userId =
         remember {

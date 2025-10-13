@@ -3,7 +3,6 @@ package com.kmp.dardev.league.app.template.presentation.components.popup
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -50,12 +49,7 @@ fun FeedbackCard(onFeedbackClick: () -> Unit) {
             Image(
                 painter =
                     painterResource(
-                        id =
-                            if (isSystemInDarkTheme()) {
-                                R.drawable.pinwhite
-                            } else {
-                                R.drawable.pinlocation
-                            },
+                        id = com.kmp.dardev.league.app.template.shared.R.drawable.info,
                     ),
                 contentDescription = "Pin Icon",
                 modifier = Modifier.size(48.dp),

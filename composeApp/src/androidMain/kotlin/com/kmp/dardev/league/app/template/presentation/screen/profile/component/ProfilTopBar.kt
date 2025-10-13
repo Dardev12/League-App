@@ -31,9 +31,9 @@ fun ProfilTopBar(navController: NavController) {
             event = { navController.navigate(Screen.HomePage.route) },
             content =
                 if (isSystemInDarkTheme()) {
-                    R.drawable.backicondark
+                    com.kmp.dardev.league.app.template.shared.R.drawable.backicondark
                 } else {
-                    R.drawable.backiconlight
+                    com.kmp.dardev.league.app.template.shared.R.drawable.backiconlight
                 },
         )
         Spacer(modifier = Modifier.width(198.dp))
@@ -41,9 +41,9 @@ fun ProfilTopBar(navController: NavController) {
             event = { navController.navigate(Screen.ParameterPage.route) },
             content =
                 if (isSystemInDarkTheme()) {
-                    R.drawable.gearicondark
+                    com.kmp.dardev.league.app.template.shared.R.drawable.gearicondark
                 } else {
-                    R.drawable.geariconlight
+                    com.kmp.dardev.league.app.template.shared.R.drawable.geariconlight
                 },
         )
         Spacer(modifier = Modifier.width(13.dp))
@@ -53,9 +53,9 @@ fun ProfilTopBar(navController: NavController) {
             },
             content =
                 if (isSystemInDarkTheme()) {
-                    R.drawable.logoutdark
+                    com.kmp.dardev.league.app.template.shared.R.drawable.logoutdark
                 } else {
-                    R.drawable.logoutlight
+                    com.kmp.dardev.league.app.template.shared.R.drawable.logoutlight
                 },
         )
     }
