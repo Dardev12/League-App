@@ -44,7 +44,7 @@ class AuthAPI(private val networkCaller: NetworkCaller):IAuthAPI {
                 body = TextContent(jsonBody, ContentType.Application.Json)
             },{ response ->
                 if (response.status.isSuccess()) {
-                    withContext(Dispatchers.IO) {
+                    withContext(Dispatchers.Default) {
                         val responseBody = response.body<String>()
                         val json: JsonElement = Json.parseToJsonElement(responseBody)
                         val connexionJson = json.jsonObject
@@ -78,7 +78,7 @@ class AuthAPI(private val networkCaller: NetworkCaller):IAuthAPI {
                 method = HttpMethod.Post
             },{ response ->
                 if (response.status.isSuccess()) {
-                    withContext(Dispatchers.IO) {
+                    withContext(Dispatchers.Default) {
                         val responseBody = response.body<String>()
                         val json: JsonElement = Json.parseToJsonElement(responseBody)
                         val connexionJson = json.jsonObject
@@ -121,7 +121,7 @@ class AuthAPI(private val networkCaller: NetworkCaller):IAuthAPI {
                 header(HttpHeaders.Authorization, "Bearer $token")
             },{ response ->
                 if (response.status.isSuccess()) {
-                    withContext(Dispatchers.IO) {
+                    withContext(Dispatchers.Default) {
                         val responseBody = response.body<String>()
                         val json: JsonElement = Json.parseToJsonElement(responseBody)
                         val connexionJson = json.jsonObject

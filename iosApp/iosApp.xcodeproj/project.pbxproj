@@ -90,7 +90,6 @@
 				974DD1D0BF791D57466E58FA /* Pods-iosApp.debug.xcconfig */,
 				64AB74D717A4F5856C52F733 /* Pods-iosApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

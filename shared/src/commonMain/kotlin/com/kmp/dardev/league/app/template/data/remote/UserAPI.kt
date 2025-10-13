@@ -30,7 +30,7 @@ class UserAPI(private val networkCaller: NetworkCaller): IUserAPI {
             },
             { response ->
                 if (response.status.isSuccess()) {
-                    withContext(Dispatchers.IO) {
+                    withContext(Dispatchers.Default) {
                         val responseBody = response.body<String>()
                         val json: JsonElement = Json.parseToJsonElement(responseBody)
 

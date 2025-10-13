@@ -1,9 +1,11 @@
 [versions]
-kotlinx-serialization = "1.4.1"
+kotlinx-serialization = "1.7.3"
 kotlinx-datetime = "0.6.2"
-kotlin-bom = "1.8.0"
+kotlin-bom = "1.8.22"
+kotlinx-coroutines = "1.10.2"
 
 [libraries]
 kotlinxSerialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
 kotlinxDatetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+kotlinXCoroutinesCore = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 kotlinBom = { module = "org.jetbrains.kotlin:kotlin-bom", version.ref = "kotlin-bom" }

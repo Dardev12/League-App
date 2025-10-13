@@ -1,0 +1,49 @@
+//
+//  PageFourPost.swift
+//  iosApp
+//
+//  Created by Darren on 2025-10-12.
+//  Copyright © 2025 orgName. All rights reserved.
+//
+
+import SwiftUI
+import shared
+
+struct PageFourPost: View {
+    var eventClick: () -> Void
+    
+    var body: some View {
+        ZStack {
+            Color.background
+                .ignoresSafeArea()
+                
+            VStack(alignment: .center){
+                if Locale.preferredLanguages.first?.hasPrefix("fr") == true {
+                    Image(resource: \.tutopublicationfr)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250, height: 300)
+                } else {
+                    Image(resource: \.tutopublicationen)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250, height: 300)
+                }
+                Text(IosStringResources(id: SharedRes.strings().page_four_title, args: []))
+                    .font(.custom(.h1Medium))
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(Color.textColor)
+                Text(IosStringResources(id: SharedRes.strings().page_four_topic, args: []))
+                    .font(.custom(.pBody))
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(Color.textColor)
+                ButtonNext(condition: eventClick)
+            }.padding()
+        }
+    }
+}
+
+#Preview {
+    PageFourPost(eventClick: {})
+}

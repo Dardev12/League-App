@@ -18,7 +18,7 @@ suspend inline fun <reified T> executeSafeCall(
     crossinline requestBuilder: HttpRequestBuilder.() -> Unit,
     crossinline transformResponse: suspend (HttpResponse) -> T?
 ): T? {
-    val viewScope = CoroutineScope(Dispatchers.IO + CoroutineName(nameEvent))
+    val viewScope = CoroutineScope(Dispatchers.Default + CoroutineName(nameEvent))
     var result: T? = null
     try {
         viewScope.launch {

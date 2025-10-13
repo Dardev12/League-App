@@ -84,6 +84,7 @@ kotlin {
 
                 implementation(kotlinx.kotlinxSerialization)
                 implementation(kotlinx.kotlinxDatetime)
+                implementation(kotlinx.kotlinXCoroutinesCore)
 
                 implementation(other.napier)
                 implementation(other.slf4j)
