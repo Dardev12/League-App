@@ -1456,7 +1456,7 @@ PODS:
   - RecaptchaInterop (101.0.0)
   - shared (1.0)
   - Shuffle-iOS (0.5.0)
-  - SwiftLint (0.61.0)
+  - SwiftLint (0.62.1)
   - ToastSwiftUI (0.3.6)
 
 DEPENDENCIES:
@@ -1544,7 +1544,7 @@ SPEC CHECKSUMS:
   RecaptchaInterop: 11e0b637842dfb48308d242afc3f448062325aba
   shared: 608e8edd2a43f00204c9dcb50631d93f4a6fa74b
   Shuffle-iOS: ff33658fb1e5eebd6a4724c156473e63754be9cb
-  SwiftLint: bf6da11a31c6644a0bbb27f4fa15fd9636db00b3
+  SwiftLint: 6a9eb020853558a7eaf00f655636b5d6ad15bd02
   ToastSwiftUI: 02d2547df70d2f12340b6a9bf85e670cab3bbf3b
 
 PODFILE CHECKSUM: 4995d2e8168f0e2442a0e7af62d26548974ba73c

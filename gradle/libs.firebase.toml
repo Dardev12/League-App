@@ -1,7 +1,7 @@
 [versions]
-firebase-kmp = "1.10.4"
-firebase-android = "33.9.0"
-firebase-android-messaging = "24.1.0"
+firebase-kmp = "2.1.0"
+firebase-android = "34.4.0"
+firebase-android-messaging = "25.0.1"
 
 [libraries]
 firebaseAuthentication = { module = "dev.gitlive:firebase-auth", version.ref = "firebase-kmp" }

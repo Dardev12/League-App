@@ -43,7 +43,7 @@ kotlin {
             implementation(other.rxPermission)
             implementation(other.twyper)
 
-            implementation(firebase.androidFirebase)
+            implementation(project.dependencies.platform(firebase.androidFirebase))
             implementation(firebase.androidFirebaseKTXStorage)
             implementation(firebase.androidFirebaseMessaging)
             implementation(firebase.androidFirebaseMessagingKTX)

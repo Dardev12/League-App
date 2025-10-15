@@ -37,7 +37,6 @@ kotlin {
             export(moko.mokoParcelize)
             isStatic = true
         }
-
         xcodeConfigurationToNativeBuildType["CUSTOM_DEBUG"] = NativeBuildType.DEBUG
         xcodeConfigurationToNativeBuildType["CUSTOM_RELEASE"] = NativeBuildType.RELEASE
     }
@@ -116,6 +115,11 @@ kotlin {
                 //implementation(sqldelight.sqlJKvm)
             }
         }*/
+        val jsMain by getting {
+            dependencies {
+                implementation(ktor.ktorJs)
+            }
+        }
         val iosX64Main by getting
         val iosArm64Main by getting
         val iosSimulatorArm64Main by getting
