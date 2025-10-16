@@ -19,13 +19,13 @@ struct PopUpAddNavigation: View {
         VStack(alignment: .center, spacing: 5) {
             AddNavButton(
                 eventClick: onFirstOptionClick,
-                content: IosStringResources(id:SharedRes.strings().add_post_popup_text,args:[]),
+                content: IosStringResources(id:SharedRes.strings().signin_text_label,args:[]),
                 iconName: colorScheme == .dark ? \.cameradark : \.cameralight
             )
             AddNavButton(
                 eventClick: onSecondOptionClick,
-                content: IosStringResources(id:SharedRes.strings().add_event_popup_text,args:[]),
-                iconName: colorScheme == .dark ? \.eventlight : \.eventdark
+                content: IosStringResources(id:SharedRes.strings().signup_text_label,args:[]),
+                iconName: colorScheme == .dark ? \.cameradark : \.cameralight
             )
         }
         .padding()

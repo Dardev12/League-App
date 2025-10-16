@@ -18,17 +18,10 @@ struct PageFourPost: View {
                 .ignoresSafeArea()
                 
             VStack(alignment: .center){
-                if Locale.preferredLanguages.first?.hasPrefix("fr") == true {
-                    Image(resource: \.tutopublicationfr)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 300)
-                } else {
-                    Image(resource: \.tutopublicationen)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 300)
-                }
+                Image(resource: \.info)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 250, height: 250)
                 Text(IosStringResources(id: SharedRes.strings().page_four_title, args: []))
                     .font(.custom(.h1Medium))
                     .fontWeight(.bold)

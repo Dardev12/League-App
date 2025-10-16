@@ -15,7 +15,7 @@ struct Survey: View {
 
     var body: some View {
         VStack {
-            Image(resource: UITraitCollection.current.userInterfaceStyle == .dark ? \.pinwhite : \.pinlocation)
+            Image(resource: \.info)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 48, height: 48)

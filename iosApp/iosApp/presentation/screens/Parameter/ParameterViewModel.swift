@@ -16,7 +16,7 @@ extension ParameterScreen {
         @Published var isRemovePopUpOpen: Bool = false
 
         init() {
-            userId = sessionCache.getActiveSession()!.currentUserGuid
+            //userId = sessionCache.getActiveSession()!.currentUserGuid
             /*if let userGuid = sessionCache.getActiveSession()?.currentUserGuid {
                 userId = userGuid
                 print(userId)

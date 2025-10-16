@@ -15,7 +15,7 @@ struct MapTip: Tip, Identifiable {
     var id = UUID()
 
     var title: Text {
-        Text(IosStringResources(id: SharedRes.strings().onboarding_tuto_map, args: []))
+        Text(IosStringResources(id: SharedRes.strings().logo_land, args: []))
     }
 
     var image: Image? {
@@ -27,7 +27,7 @@ struct FeedbackTip: Tip, Identifiable {
     var id = UUID()
 
     var title: Text {
-        Text(IosStringResources(id: SharedRes.strings().survey_feedback_title, args: []))
+        Text(IosStringResources(id: SharedRes.strings().logo_land, args: []))
     }
 
     var image: Image? {
@@ -39,7 +39,7 @@ struct BottomBarTip: Tip, Identifiable {
     var id = UUID()
 
     var title: Text {
-        Text(IosStringResources(id: SharedRes.strings().onboarding_tuto_bottom_bar, args: []))
+        Text(IosStringResources(id: SharedRes.strings().logo_land, args: []))
     }
 }
 
@@ -47,6 +47,6 @@ struct SwipyTip: Tip, Identifiable {
     var id = UUID()
 
     var title: Text {
-        Text(IosStringResources(id: SharedRes.strings().onboarding_tuto_swipy, args: []))
+        Text(IosStringResources(id: SharedRes.strings().logo_land, args: []))
     }
 }

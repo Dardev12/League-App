@@ -24,7 +24,7 @@ struct AuthMenuScreen: View {
                 NavigationLink(destination: AuthSignUpScreen(),tag: "SignUp", selection: $selection) {
                     EmptyView()
                 }
-                Image(resource: \.logoauth)
+                Image(resource: \.info)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 111.23, height: 135.35)

@@ -17,17 +17,10 @@ struct PageOneIntroduction: View {
             Color.background
                 .ignoresSafeArea()
             VStack(alignment: .center){
-                if UITraitCollection.current.userInterfaceStyle == .dark {
-                    Image(resource: \.logolandblanc)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 300, height: 320)
-                } else {
-                    Image(resource: \.logoauth)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 220)
-                }
+                Image(resource: \.info)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 250, height: 250)
                 Text(IosStringResources(id: SharedRes.strings().page_one_title, args: []))
                     .font(.custom(.h2Medium))
                     .fontWeight(.bold)

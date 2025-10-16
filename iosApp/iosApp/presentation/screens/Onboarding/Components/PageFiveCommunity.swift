@@ -18,17 +18,10 @@ struct PageFiveCommunity: View {
                 .ignoresSafeArea()
                 
             VStack(alignment: .center){
-                if UITraitCollection.current.userInterfaceStyle == .dark {
-                    Image(resource: \.communitylight)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 250)
-                } else {
-                    Image(resource: \.communitydark)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 250)
-                }
+                Image(resource: \.info)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 250, height: 250)
                 Text(IosStringResources(id: SharedRes.strings().page_five_title, args: []))
                     .font(.custom(.h1Medium))
                     .fontWeight(.bold)

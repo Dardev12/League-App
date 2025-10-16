@@ -47,15 +47,15 @@ kotlin {
         }
     }
     
-    listOf(
+    /*listOf(
         iosArm64(),
         iosSimulatorArm64()
     ).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "Shared"
+            baseName = "shared"
             isStatic = true
         }
-    }
+    }*/
     
     js {
         outputModuleName = "shared"
@@ -129,9 +129,9 @@ kotlin {
             iosArm64Main.dependsOn(this)
             iosSimulatorArm64Main.dependsOn(this)
             dependencies {
-                api(moko.mokoLibResources)
-                api(moko.mokoGraphics)
-                api(moko.mokoParcelize)
+                implementation(moko.mokoLibResources)
+                implementation(moko.mokoGraphics)
+                implementation(moko.mokoParcelize)
                 //implementation(sqldelight.sqlIos)
                 implementation(ktor.ktorIos)
                 implementation(other.touchlabStately)

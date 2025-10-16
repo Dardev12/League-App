@@ -17,17 +17,10 @@ struct PageTwoUseCase: View {
             Color.background
                 .ignoresSafeArea()
             VStack(alignment: .center){
-                if UITraitCollection.current.userInterfaceStyle == .dark {
-                    Image(resource: \.usecaselight)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 300)
-                } else {
-                    Image(resource: \.usecasedark)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 300)
-                }
+                Image(resource: \.info)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 250, height: 250)
                 Text(IosStringResources(id: SharedRes.strings().page_two_title, args: []))
                     .font(.custom(.h1Medium))
                     .fontWeight(.bold)

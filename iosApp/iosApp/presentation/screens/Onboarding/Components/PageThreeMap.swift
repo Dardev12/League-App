@@ -18,10 +18,10 @@ struct PageThreeMap: View {
                 .ignoresSafeArea()
             
             VStack(alignment: .center){
-                Image(resource: \.mapmmvp)
+                Image(resource: \.info)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 200, height: 330)
+                    .frame(width: 250, height: 250)
                 Text(IosStringResources(id: SharedRes.strings().page_four_title, args: []))
                     .font(.custom(.h1Medium))
                     .fontWeight(.bold)

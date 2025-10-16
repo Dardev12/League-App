@@ -23,7 +23,10 @@ struct ProfilUserInfo: View {
     init(
         imageURL: URL?
     ) {
-        dataHolder.imageURL = imageURL
+        // Initialize the binding before using self
+        self._isLoading = .constant(false)
+        // Now it's safe to access other stored properties via self
+        self.dataHolder.imageURL = imageURL
     }
 
     var body: some View {
@@ -58,3 +61,4 @@ struct ProfilUserInfo: View {
         }.frame(maxWidth: .infinity)
     }
 }
+
