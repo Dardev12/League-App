@@ -14,11 +14,11 @@ struct AlertDialog: View {
     
     var body: some View {
         VStack {
-            Text(IosStringResources(id:SharedRes.strings().experimental_version_text_title,args:[]))
+            Text(IosStringResources(id:SharedRes.strings().survey_feedback_title,args:[]))
                 .font(.headline)
                 .padding()
 
-            Text(IosStringResources(id:SharedRes.strings().experimental_version_text_label,args:[]))
+            Text(IosStringResources(id:SharedRes.strings().survey_feedback_message,args:[]))
                 .font(Font.custom(.pBody))
                 .padding()
 

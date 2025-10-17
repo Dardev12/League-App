@@ -15,6 +15,17 @@ val lightForeground = Color(ColorsApp.LightForeground)
 val lightBottomTopBarBackground = Color(ColorsApp.LightBottomTopBackground)
 val darkBottomTopBarBackground = Color(ColorsApp.DarkBottomTopBackground)
 
+val PrimaryLight = Color(ColorsApp.PrimaryLight)
+val PrimaryDark = Color(ColorsApp.PrimaryDark)
+val SecondaryLight = Color(ColorsApp.SecondaryLight)
+val SecondaryDark = Color(ColorsApp.SecondaryDark)
+val TertiaryLight = Color(ColorsApp.TertiaryLight)
+val TertiaryDark = Color(ColorsApp.TertiaryDark)
+val TextPrimaryLight = Color(ColorsApp.TextPrimaryLight)
+val TextPrimaryDark = Color(ColorsApp.TextPrimaryDark)
+val TextSecondaryLight = Color(ColorsApp.TextSecondaryLight)
+val TextSecondaryDark = Color(ColorsApp.TextSecondaryDark)
+
 val successColor = Color(ColorsApp.SuccessGreen)
 val errorColor = Color(ColorsApp.ErrorRed)
 val infoColor = Color(ColorsApp.InfoBlue)
@@ -27,19 +38,19 @@ val ColorScheme.buttonFeedbackBackground
 
 val ColorScheme.feedbackBoxBackground
     @Composable
-    get() = if (isSystemInDarkTheme()) darkBackground else lightBackground
+    get() = if (isSystemInDarkTheme()) TertiaryDark else TertiaryLight
 
 val ColorScheme.feedbackTextForeground
     @Composable
-    get() = if (isSystemInDarkTheme()) darkForeground else lightForeground
+    get() = if (isSystemInDarkTheme()) TextPrimaryDark else TextPrimaryLight
 
 val ColorScheme.buttonBackground
     @Composable
-    get() = if (isSystemInDarkTheme()) darkBackground else lightBackground
+    get() = if (isSystemInDarkTheme()) PrimaryDark else PrimaryLight
 
 val ColorScheme.buttonContent
     @Composable
-    get() = if (isSystemInDarkTheme()) darkForeground else lightForeground
+    get() = if (isSystemInDarkTheme()) TextPrimaryDark else TextPrimaryLight
 
 val ColorScheme.iconbuttonBackground
     @Composable
@@ -55,7 +66,7 @@ val ColorScheme.clickableIconContent
 
 val ColorScheme.textColor
     @Composable
-    get() = if (isSystemInDarkTheme()) darkForeground else lightForeground
+    get() = if (isSystemInDarkTheme()) TextPrimaryDark else TextPrimaryLight
 
 val ColorScheme.profilContentTop
     @Composable
@@ -67,7 +78,7 @@ val ColorScheme.profilContent
 
 val ColorScheme.textFieldBackground
     @Composable
-    get() = if (isSystemInDarkTheme()) lightBackground else darkForeground
+    get() = if (isSystemInDarkTheme()) TextSecondaryDark else TextSecondaryLight
 
 val ColorScheme.textFieldContent
     @Composable
@@ -83,7 +94,7 @@ val ColorScheme.topBarBackground
 
 val ColorScheme.popUpBackground
     @Composable
-    get() = if (isSystemInDarkTheme()) darkBackground else lightBackground
+    get() = if (isSystemInDarkTheme()) SecondaryDark else SecondaryLight
 
 val ColorScheme.popUpContent
     @Composable

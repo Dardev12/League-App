@@ -32,29 +32,29 @@ enum CustomFont{
     var values: FontValues {
         switch self {
                 case .h1Large:
-                    return FontValues(fontName: "poppins_bold", fontSize: 25, fontWeight: .bold)
+                    return FontValues(fontName: "leaguespartan_bold", fontSize: 25, fontWeight: .bold)
                 case .h1Medium:
-                    return FontValues(fontName: "poppins_medium", fontSize: 25, fontWeight: .medium)
+                    return FontValues(fontName: "leaguespartan_medium", fontSize: 25, fontWeight: .medium)
                 case .h1Light:
-                    return FontValues(fontName: "poppins_regular", fontSize: 25, fontWeight: .regular)
+                    return FontValues(fontName: "leaguespartan_regular", fontSize: 25, fontWeight: .regular)
                 case .h2Large:
-                    return FontValues(fontName: "poppins_semibold", fontSize: 20, fontWeight: .semibold)
+                    return FontValues(fontName: "leaguespartan_semibold", fontSize: 20, fontWeight: .semibold)
                 case .h2Medium:
-                    return FontValues(fontName: "poppins_medium", fontSize: 20, fontWeight: .medium)
+                    return FontValues(fontName: "leaguespartan_medium", fontSize: 20, fontWeight: .medium)
                 case .h2Light:
-                    return FontValues(fontName: "poppins_regular", fontSize: 20, fontWeight: .regular)
+                    return FontValues(fontName: "leaguespartan_regular", fontSize: 20, fontWeight: .regular)
                 case .h3Large:
-                    return FontValues(fontName: "poppins_regular", fontSize: 20, fontWeight: .regular)
+                    return FontValues(fontName: "leaguespartan_regular", fontSize: 20, fontWeight: .regular)
                 case .pBoldBody:
-                    return FontValues(fontName: "poppins_medium", fontSize: 14, fontWeight: .medium)
+                    return FontValues(fontName: "leaguespartan_medium", fontSize: 14, fontWeight: .medium)
                 case .pBody:
-                    return FontValues(fontName: "poppins_regular", fontSize: 14, fontWeight: .regular)
+                    return FontValues(fontName: "leaguespartan_regular", fontSize: 14, fontWeight: .regular)
                 case .pSurveyBody:
-                    return FontValues(fontName: "poppins_light", fontSize: 12, fontWeight: .light)
+                    return FontValues(fontName: "leaguespartan_light", fontSize: 12, fontWeight: .light)
                 case .btnLarge:
-                    return FontValues(fontName: "poppins_semibold", fontSize: 20, fontWeight: .semibold)
+                    return FontValues(fontName: "leaguespartan_semibold", fontSize: 20, fontWeight: .semibold)
                 case .btnSmall:
-                    return FontValues(fontName: "poppins_regular", fontSize: 17, fontWeight: .regular)
+                    return FontValues(fontName: "leaguespartan_regular", fontSize: 17, fontWeight: .regular)
         }
     }
 }

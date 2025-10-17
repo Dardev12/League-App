@@ -86,13 +86,6 @@
     <string name="accept_use_condition">By creating your account you accept the </string>
     <string name="accept_forgot_password_use_condition">By clicking you accept the </string>
     <string name="terms_of_use_text_label">terms of use</string>
-    <string name="experimental_version_text_title">Release information :</string>
-    <string name="experimental_version_text_label">Dear user,
-        \nYou are currently using an experimental version of our application. This initial release aims to gather your valuable feedback to enhance the application according to your needs. Your data will be retained temporarily.
-        \nA major update is planned for the Autumn, and your feedback will play a crucial role in its development. Your experience and suggestions will shape an even better application, fully meeting your expectations.
-        \nThank you for your support and participation!
-        \nThe My_Land Team.
-    </string>
     <string name="signin_text_label">Sign In</string>
     <string name="signup_text_label">Sign Up</string>
     <string name="select_picture_text_label">Select an image</string>
@@ -127,7 +120,90 @@
     <string name="page_five_title">Start Your Adventure with Swipy – Share My_Land!</string>
     <string name="page_five_topic">Begin your journey with Swipy and invite friends to join the fun. Discover, explore, and share the My_Land experience together!</string>
 
-    <string name="survey_feedback_title">Help Us Improve Land App !</string>
-    <string name="survey_feedback_message">Your feedback is important to us. Would you like to take a few moments to answer our satisfaction survey and contribute to the improvement of Land App ?</string>
+    <string name="survey_feedback_title">Help Us Improve Your App !</string>
+    <string name="survey_feedback_message">Your feedback is important to us. Would you like to take a few moments to answer our satisfaction survey and contribute to the improvement of your App ?</string>
     <string name="survey_feedback_action">Take the Survey</string>
+
+    <!-- App Info -->
+    <string name="name_app">App League</string>
+    <string name="copyright_text">©2025 App League by Darren Lambert</string>
+
+    <!-- Parameter Section -->
+    <string name="parameter_section_info">account info</string>
+    <string name="parameter_section_security">security</string>
+    <string name="parameter_section_support">support</string>
+    <string name="parameter_section_title">Parameter</string>
+    <string name="parameter_section_version">Version 0.1</string>
+    <string name="parameter_section_about_us">About Us</string>
+    <string name="parameter_section_about_text">App League is made to help build and ship app faster with kotlin multiplatform.\nIf you want to start a startup or build multiple app as a indie dev. You are at the right place</string>
+
+    <!-- Authentication -->
+    <string name="auth_hint_email">Insert your e-mail</string>
+    <string name="auth_hint_username">Insert your username</string>
+    <string name="auth_hint_password">Insert your password</string>
+    <string name="auth_hint_repeated_password">Insert your password again</string>
+    <string name="auth_google_login">Sign in with Google</string>
+    <string name="auth_login_title">Login</string>
+    <string name="auth_register_title">Register</string>
+    <string name="auth_login_title_button">Sign In</string>
+    <string name="auth_register_title_button">Sign Up</string>
+    <string name="auth_email_section">Email Address</string>
+    <string name="auth_username_section">Username</string>
+    <string name="auth_password_section">Password</string>
+    <string name="auth_menu_subtexte_slide_one">Start any mobile app project quickly</string>
+    <string name="call_to_action_register">Create My App!</string>
+    <string name="auth_already_have_account">Already have an account?</string>
+    <string name="auth_login_link">Sign In</string>
+    <string name="auth_auth_google_register">Sign Up with Google</string>
+
+    <!-- Onboarding Survey -->
+    <string name="onboard_survey_question_title">Survey Question Lorem ispum and lorem ispum ?</string>
+    <string name="onboard_survey_generic_answer">Answer %s - choice</string>
+    <string name="onboard_button_next">Continue</string>
+    <string name="onboard_suvey_congrat_main_text">%s , with App League we will help you achieved this goal of</string>
+    <string name="onboard_suvey_congrat_main_goal">Shipping Mobile App faster</string>
+    <string name="onboard_suvey_congrat_subtext">We will ask you some quick question to adapt your mobile experience, whatever message</string>
+
+    <!-- Onboarding Permissions -->
+    <string name="onboard_pn_title">Allow Permissions !</string>
+    <string name="onboard_pn_subtitle">For a better experience allow this permissions.</string>
+    <string name="onboard_info_about_permissions">this will offer you the access to this awesome feature</string>
+    <string name="onboard_pn_allow_btn">Allow</string>
+    <string name="onboard_pn_photo">Photos</string>
+    <string name="onboard_pn_camera">Camera</string>
+    <string name="onboard_pn_location">Location</string>
+    <string name="onboard_pn_track">Tracking</string>
+    <string name="onboard_pn_notifications">Notifications</string>
+    <string name="onboard_pn_bluetooth">Bluetooth</string>
+
+    <!-- Onboarding Microconversion -->
+    <string name="onboard_microconversion_title_one">Message To Make it commit to your Onboard</string>
+    <string name="onboard_microconversion_goal">Goal of your User</string>
+    <string name="onboard_microconversion_appleague">With App League</string>
+    <string name="onboard_microconversion_subtext_goal">You will focus on your\nmain feature instead of losing time on..</string>
+    <string name="onboard_microconversion_title_two">Advantage to use your App</string>
+    <string name="onboard_microconversion_avantage">Advantage %s - etc</string>
+    <string name="onboard_microconversion_title_three">How your App will help user to achieve result</string>
+    <string name="onboard_microconversion_achievement">Achievement %s - etc</string>
+    <string name="onboard_microconversion_title_four">With your App you will achieve this result</string>
+    <string name="onboard_microconversion_subtitle_four">I commit to realize my goal</string>
+    <string name="onboard_microconversion_goal_four">Specific GOAL Here</string>
+    <string name="onboard_microconversion_commit_button">Hold the button to commit</string>
+
+    <!-- Onboarding Social Proof -->
+    <string name="onboard_socialproof_title">Your App is One liner to Commit the user again on the value</string>
+    <string name="onboard_socialproof_subtitle_value_one">Show Main Value</string>
+    <string name="onboard_socialproof_subtitle_value_two">Show Second Value</string>
+    <string name="onboard_socialproof_subtitle_paternship">Show collab here</string>
+
+    <!-- Onboarding Referral -->
+    <string name="onboard_referral_tittle">App League to Ship</string>
+    <string name="onboard_referral_subtitle">Share App League for people who want to build mobile app and ship it quickly</string>
+    <string name="onboard_referral_invited_message">invite those people who want to build mobile app :</string>
+    <string name="onboard_referral_first_target">For Startup Founder</string>
+    <string name="onboard_referral_second_target">For Indie Dev</string>
+    <string name="onboard_referral_third_target">For Non Technical Founder</string>
+    <string name="onboard_referral_share_button">Share App League</string>
+    <string name="onboard_referral_onboard_completed">Start Shipping with App League</string>
+
 </resources>

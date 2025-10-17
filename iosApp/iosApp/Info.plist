@@ -4,11 +4,22 @@
 <dict>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
-    
-    <key>CFBundleLocalizations</key>
-    <array>
-    <string>en</string>
-    <string>fr</string>
-    </array>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>fr</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>leaguespartan_black</string>
+		<string>leaguespartan_bold</string>
+		<string>leaguespartan_extrabold</string>
+		<string>leaguespartan_extralight</string>
+		<string>leaguespartan_light</string>
+		<string>leaguespartan_medium</string>
+		<string>leaguespartan_regular</string>
+		<string>leaguespartan_semibold</string>
+		<string>leaguespartan_thin</string>
+	</array>
 </dict>
 </plist>

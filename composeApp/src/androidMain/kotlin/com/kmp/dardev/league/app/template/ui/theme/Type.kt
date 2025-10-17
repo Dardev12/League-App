@@ -8,90 +8,91 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.kmp.dardev.league.app.template.R
 
-val poppins_Black = FontFamily(Font(R.font.poppins_black, FontWeight.Black))
-val poppins_Bold = FontFamily(Font(R.font.poppins_bold, FontWeight.Bold))
-val poppins_Medium = FontFamily(Font(R.font.poppins_medium, FontWeight.Medium))
-val poppins_SemiBold = FontFamily(Font(R.font.poppins_semibold, FontWeight.SemiBold))
-val poppins_Regular = FontFamily(Font(R.font.poppins_regular, FontWeight.Normal))
-val poppins_Italic = FontFamily(Font(R.font.poppins_italic, FontWeight.Normal))
-val poppins_Thin = FontFamily(Font(R.font.poppins_thin, FontWeight.Thin))
-val poppins_Light = FontFamily(Font(R.font.poppins_light, FontWeight.Light))
+val leaguespartan_Black = FontFamily(Font(R.font.leaguespartan_black, FontWeight.Black))
+val leaguespartan_Bold = FontFamily(Font(R.font.leaguespartan_bold, FontWeight.Bold))
+val leaguespartan_Medium = FontFamily(Font(R.font.leaguespartan_medium, FontWeight.Medium))
+val leaguespartan_SemiBold = FontFamily(Font(R.font.leaguespartan_semibold, FontWeight.SemiBold))
+val leaguespartan_Regular = FontFamily(Font(R.font.leaguespartan_regular, FontWeight.Normal))
+val leaguespartan_Extrabold = FontFamily(Font(R.font.leaguespartan_extrabold, FontWeight.ExtraBold))
+val leaguespartan_Thin = FontFamily(Font(R.font.leaguespartan_thin, FontWeight.Thin))
+val leaguespartan_Light = FontFamily(Font(R.font.leaguespartan_light, FontWeight.Light))
+val leaguespartan_ExtraLight = FontFamily(Font(R.font.leaguespartan_extralight, FontWeight.ExtraLight))
 
 val typography =
     Typography(
         displayLarge =
             TextStyle(
-                fontFamily = poppins_Bold,
+                fontFamily = leaguespartan_Bold,
                 fontSize = 25.sp,
             ),
         displayMedium =
             TextStyle(
-                fontFamily = poppins_Medium,
+                fontFamily = leaguespartan_Medium,
                 fontSize = 25.sp,
             ),
         displaySmall =
             TextStyle(
-                fontFamily = poppins_Regular,
+                fontFamily = leaguespartan_Regular,
                 fontSize = 25.sp,
             ),
         headlineLarge =
             TextStyle(
-                fontFamily = poppins_SemiBold,
+                fontFamily = leaguespartan_SemiBold,
                 fontSize = 20.sp,
             ),
         headlineMedium =
             TextStyle(
-                fontFamily = poppins_Medium,
+                fontFamily = leaguespartan_Medium,
                 fontSize = 20.sp,
             ),
         headlineSmall =
             TextStyle(
-                fontFamily = poppins_Regular,
+                fontFamily = leaguespartan_Regular,
                 fontSize = 20.sp,
             ),
         titleLarge =
             TextStyle(
-                fontFamily = poppins_Bold,
+                fontFamily = leaguespartan_Bold,
                 fontSize = 20.sp,
             ),
         titleMedium =
             TextStyle(
-                fontFamily = poppins_Regular,
+                fontFamily = leaguespartan_Regular,
                 fontSize = 18.sp,
             ),
         titleSmall =
             TextStyle(
-                fontFamily = poppins_Light,
+                fontFamily = leaguespartan_Light,
                 fontSize = 16.sp,
             ),
         bodyLarge =
             TextStyle(
-                fontFamily = poppins_Medium,
+                fontFamily = leaguespartan_Medium,
                 fontSize = 14.sp,
             ),
         bodyMedium =
             TextStyle(
-                fontFamily = poppins_Regular,
+                fontFamily = leaguespartan_Regular,
                 fontSize = 14.sp,
             ),
         bodySmall =
             TextStyle(
-                fontFamily = poppins_Light,
+                fontFamily = leaguespartan_Light,
                 fontSize = 12.sp,
             ),
         labelLarge =
             TextStyle(
-                fontFamily = poppins_SemiBold,
+                fontFamily = leaguespartan_SemiBold,
                 fontSize = 16.sp,
             ),
         labelMedium =
             TextStyle(
-                fontFamily = poppins_Regular,
+                fontFamily = leaguespartan_Regular,
                 fontSize = 14.sp,
             ),
         labelSmall =
             TextStyle(
-                fontFamily = poppins_Light,
+                fontFamily = leaguespartan_Light,
                 fontSize = 12.sp,
             ),
     )

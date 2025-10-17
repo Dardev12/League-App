@@ -47,12 +47,16 @@ extension SwiftUI.Color{
     static let warningColor = Color(hex: colors.WarningYellow)
     static let switchTrackUnchecked = Color(hex: colors.uncheckedSwitch)
     
-    static let primaryColor = Color(light: .lightForeground, dark: .darkForeground)
+    static let primaryColor = Color(light: Color(hex:colors.PrimaryLight), dark: Color(hex:colors.PrimaryDark))
     static let background = Color(light: .lightBackground, dark: .darkBackground)
-    static let onPrimary = Color(light: .lightBackground, dark: .darkBackground)
+    static let onPrimary = Color(light: Color(hex:colors.TextPrimaryLight), dark: Color(hex:colors.TextPrimaryDark))
     static let onBackground = Color(light: .lightForeground, dark: .darkForeground)
     static let surface = Color(light: .darkBackground, dark: .darkBackground)
     static let onSurface = Color(light: .lightBackground, dark: .lightBackground)
+    static let secondaryColor = Color(light: Color(hex:colors.SecondaryLight), dark: Color(hex:colors.SecondaryDark))
+    static let tertiaryColor = Color(light: Color(hex:colors.TertiaryLight), dark: Color(hex:colors.TertiaryDark))
+    static let textPrimaryColor = Color(light: Color(hex:colors.TextPrimaryLight), dark: Color(hex:colors.TextPrimaryDark))
+    static let textSecondaryColor = Color(light: Color(hex:colors.TextSecondaryLight), dark: Color(hex:colors.TextSecondaryDark))
     
     static let bottomBarBackground = Color(light: .lightBottomTopBarBackground, dark: .darkBottomTopBarBackground)
     static let topBarBackground = Color(light: .lightBottomTopBarBackground, dark: .darkBottomTopBarBackground)

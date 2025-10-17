@@ -72,6 +72,7 @@ kotlin {
             dependencies {
                 api(moko.mokoLibResources)
                 api(moko.mokoGraphics)
+                api(moko.mokoParcelize)
 
                 //implementation(sqldelight.sqlCommon)
                 //implementation(sqldelight.sqlCoroutines)

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LeagueAppTemplate</string>
+    <string name="app_name" translatable="false">LeagueAppTemplate</string>
     <string name="research_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string> <!--Testing ID-->
     <string name="detail_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string> <!--Testing ID-->
     <string name="default_web_client_id">835682798620-n5jlm8kt8d5fj1octrf9q5fc6stnboo7.apps.googleusercontent.com</string>

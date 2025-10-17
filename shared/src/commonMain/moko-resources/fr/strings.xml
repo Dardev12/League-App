@@ -127,7 +127,90 @@
     <string name="page_five_title">Commencez votre Aventure avec Swipy !</string>
     <string name="page_five_topic">Lancez votre aventure avec Swipy et invitez vos amis à vous rejoindre. Découvrez, explorez et partagez l’expérience My_Land ensemble !</string>
 
-    <string name="survey_feedback_title">Aidez-nous \à Am\éliorer Land App !</string>
-    <string name="survey_feedback_message">Votre avis compte beaucoup pour nous. Souhaitez-vous prendre quelques instants pour r\épondre \à notre formulaire de satisfaction afin de contribuer \à l\'am\élioration de Land App ?</string>
-    <string name="survey_feedback_action">R\épondre au Formulaire</string>
+    <string name="survey_feedback_title">Aidez-nous à Améliorer Ton App !</string>
+    <string name="survey_feedback_message">Votre avis compte beaucoup pour nous. Souhaitez-vous prendre quelques instants pour répondre à notre formulaire de satisfaction afin de contribuer à l'amélioration de l'app ?</string>
+    <string name="survey_feedback_action">Répondre au Formulaire</string>
+
+    <!-- App Info -->
+    <string name="name_app">App League</string>
+    <string name="copyright_text">©2025 App League par Darren Lambert</string>
+
+    <!-- Parameter Section -->
+    <string name="parameter_section_info">Informations du compte</string>
+    <string name="parameter_section_security">Sécurité</string>
+    <string name="parameter_section_support">Support</string>
+    <string name="parameter_section_title">Paramètres</string>
+    <string name="parameter_section_version">Version 0.1</string>
+    <string name="parameter_section_about_us">À propos de nous</string>
+    <string name="parameter_section_about_text">App League est conçu pour aider à construire et déployer des applications plus rapidement avec Kotlin Multiplatform.\nSi vous voulez lancer une startup ou créer plusieurs applications en tant que développeur indépendant, vous êtes au bon endroit</string>
+
+    <!-- Authentication -->
+    <string name="auth_hint_email">Insérez votre courriel</string>
+    <string name="auth_hint_username">Insérez votre nom d\'utilisateur</string>
+    <string name="auth_hint_password">Insérez votre mot de passe</string>
+    <string name="auth_hint_repeated_password">Insérez votre mot de passe à nouveau</string>
+    <string name="auth_google_login">Se connecter avec Google</string>
+    <string name="auth_login_title">Connexion</string>
+    <string name="auth_register_title">Inscription</string>
+    <string name="auth_login_title_button">Se connecter</string>
+    <string name="auth_register_title_button">S\'inscrire</string>
+    <string name="auth_email_section">Adresse courriel</string>
+    <string name="auth_username_section">Nom d\'utilisateur</string>
+    <string name="auth_password_section">Mot de passe</string>
+    <string name="auth_menu_subtexte_slide_one">Démarrez rapidement n\'importe quel projet d\'application mobile</string>
+    <string name="call_to_action_register">Créé mon app !</string>
+    <string name="auth_already_have_account">J\'ai déjà un compte ?</string>
+    <string name="auth_login_link">Se connecter</string>
+    <string name="auth_auth_google_register">S\'inscrire avec Google</string>
+
+    <!-- Onboarding Survey -->
+    <string name="onboard_survey_question_title">Question du sondage Lorem ipsum et lorem ipsum ?</string>
+    <string name="onboard_survey_generic_answer">Réponse %s - choix</string>
+    <string name="onboard_button_next">Continuer</string>
+    <string name="onboard_suvey_congrat_main_text">%s, avec App League nous vous aiderons à atteindre cet objectif de</string>
+    <string name="onboard_suvey_congrat_main_goal">Déployer des applications mobiles plus rapidement</string>
+    <string name="onboard_suvey_congrat_subtext">Nous vous poserons quelques questions rapides pour adapter votre expérience mobile, quel que soit le message</string>
+
+    <!-- Onboarding Permissions -->
+    <string name="onboard_pn_title">Autoriser les permissions !</string>
+    <string name="onboard_pn_subtitle">Pour une meilleure expérience, autorisez ces permissions.</string>
+    <string name="onboard_info_about_permissions">Cela vous offrira l\'accès à cette fonctionnalité exceptionnelle</string>
+    <string name="onboard_pn_allow_btn">Autoriser</string>
+    <string name="onboard_pn_photo">Photos</string>
+    <string name="onboard_pn_camera">Caméra</string>
+    <string name="onboard_pn_location">Localisation</string>
+    <string name="onboard_pn_track">Suivi</string>
+    <string name="onboard_pn_notifications">Notifications</string>
+    <string name="onboard_pn_bluetooth">Bluetooth</string>
+
+    <!-- Onboarding Microconversion -->
+    <string name="onboard_microconversion_title_one">Message pour vous engager dans votre intégration</string>
+    <string name="onboard_microconversion_goal">Objectif de votre utilisateur</string>
+    <string name="onboard_microconversion_appleague">Avec App League</string>
+    <string name="onboard_microconversion_subtext_goal">Vous vous concentrerez sur votre\nfonctionnalité principale au lieu de perdre du temps sur...</string>
+    <string name="onboard_microconversion_title_two">Avantages à utiliser votre application</string>
+    <string name="onboard_microconversion_avantage">Avantage %s - etc</string>
+    <string name="onboard_microconversion_title_three">Comment votre application aidera l\'utilisateur à atteindre des résultats</string>
+    <string name="onboard_microconversion_achievement">Réalisation %s - etc</string>
+    <string name="onboard_microconversion_title_four">Avec votre application, vous atteindrez ce résultat</string>
+    <string name="onboard_microconversion_subtitle_four">Je m\'engage à réaliser mon objectif</string>
+    <string name="onboard_microconversion_goal_four">Objectif spécifique ici</string>
+    <string name="onboard_microconversion_commit_button">Maintenez le bouton pour vous engager</string>
+
+    <!-- Onboarding Social Proof -->
+    <string name="onboard_socialproof_title">Votre application est une phrase accrocheuse pour engager à nouveau l\'utilisateur sur la valeur</string>
+    <string name="onboard_socialproof_subtitle_value_one">Afficher la valeur principale</string>
+    <string name="onboard_socialproof_subtitle_value_two">Afficher la deuxième valeur</string>
+    <string name="onboard_socialproof_subtitle_paternship">Afficher les collaborations ici</string>
+
+    <!-- Onboarding Referral -->
+    <string name="onboard_referral_tittle">App League pour déployer</string>
+    <string name="onboard_referral_subtitle">Partagez App League avec les personnes qui veulent créer des applications mobiles et les déployer rapidement</string>
+    <string name="onboard_referral_invited_message">Invitez ces personnes qui veulent créer des applications mobiles :</string>
+    <string name="onboard_referral_first_target">Pour les fondateurs de startups</string>
+    <string name="onboard_referral_second_target">Pour les développeurs indépendants</string>
+    <string name="onboard_referral_third_target">Pour les fondateurs non techniques</string>
+    <string name="onboard_referral_share_button">Partager App League</string>
+    <string name="onboard_referral_onboard_completed">Commencez à déployer avec App League</string>
+
 </resources>
